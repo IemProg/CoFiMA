@@ -1,5 +1,4 @@
 <div align="center">
-  
   <div>
   <h1>Weighted Ensemble Models Are Strong Continual Learners</h1>
   </div>
@@ -76,6 +75,7 @@ If you find this work helpful, please cite our paper.
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+```
 
 ## Acknowledgment
 This repo is heavily based on [PyCIL](https://github.com/G-U-N/PyCIL), [SLCA](https://github.com/GengDavid/SLCA), many thanks.
