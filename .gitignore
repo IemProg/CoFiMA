@@ -1,0 +1,5 @@
+# output dir
+logs
+
+# pycharm
+*.idea
