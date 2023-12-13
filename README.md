@@ -44,7 +44,7 @@ implement, and effective in achieving state-of-the-art performance on several st
 ## Requirement
 install the conda environment using the environment.yml file
 
-```conda env create --file ENV.yml```
+```conda env create --file environement.yml```
 
 ## Pre-trained Models
 Please download pre-trained ViT-Base models from [MoCo v3](https://drive.google.com/file/d/1bshDu4jEKztZZvwpTVXSAuCsDoXwCkfy/view?usp=share_link) and [ImageNet-21K](https://drive.google.com/file/d/1PcAOf0tJYs1FVDpj-7lrkSuwXTJXVmuk/view?usp=share_link) and 
