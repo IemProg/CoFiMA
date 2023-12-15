@@ -21,7 +21,7 @@
 </div>
 
 
-The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2310.11482)" in PyTorch.
+The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2312.08977)" in PyTorch.
 
 ## Abstract
 In this work, we study the problem of continual learning (CL) where the goal is to learn a model on a 
@@ -67,13 +67,13 @@ to launch the training of CoMA or CoFiMA on CIFAR-100, run the following command
 If you find this work helpful, please cite our paper.
 
 ```bibtex
-@misc{marouf2023cofima,
+@misc{marouf2023weighted,
       title={Weighted Ensemble Models Are Strong Continual Learners}, 
       author={Imad Eddine Marouf and Subhankar Roy and Enzo Tartaglione and Stéphane Lathuilière},
       year={2023},
-      eprint={2310.11482},
+      eprint={2312.08977},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.LG}
 }
 ```
 
