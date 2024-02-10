@@ -128,10 +128,6 @@ class CoFiMA(BaseLearner):
         self.prev_nets = []
         self.init_nets = []
 
-        # Append the pre-trained model (task 0: assuming having the most generalizable)
-        if self.args["init_w"] == 0:
-            self.prev_nets.append(copy.deepcopy(self._network.state_dict()))
-
         # Store diag fisher matrices
         self.fisher_mat = []
 
@@ -253,10 +249,6 @@ class CoFiMA(BaseLearner):
                     self._cur_task, epoch, epochs, losses/len(train_loader))
             logging.info(info)
             wandb.log({'Train loss': losses / len(train_loader)})
-
-            if self.args["ema"]:
-                if epoch % self.args["ema_update"] == 0:
-                    self.update_ema()
 
     def _stage1_training(self, train_loader, test_loader):
         '''
