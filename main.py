@@ -6,9 +6,6 @@ import wandb
 
 def main():
     args = setup_parser().parse_args()
-
-    epochs = args.epochs
-    convnet_type     = args.convnet_type
     wt_alpha = args.wt_alpha
 
     seed = args.seed
@@ -21,9 +18,6 @@ def main():
     args.update(param)  # Add parameters from json
 
     # restore dataset name from arguments
-    args["epochs"] = int(epochs)
-    args["convnet_type"] = convnet_type
-
     args["wt_alpha"] = wt_alpha
 
     args["fisher_weighting"] = fisher_weighting
@@ -36,7 +30,7 @@ def main():
         args["increment"])
     wandb.init(
         # Set the project where this run will be logged
-        project="GOP",
+        project="CoFiMA",
         # Group experimnets
         group=args["exp_grp"],
         # We pass a run name (otherwise it’ll be randomly assigned, like sunshine-lollypop-10)
