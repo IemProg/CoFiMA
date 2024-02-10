@@ -49,17 +49,13 @@ def _train(args):
     _set_device(args)
     print_args(args)
 
-    if args["dataset"] != "5datasets":
-        data_manager = DataManager(
-            args["dataset"],
-            args["shuffle"],
-            args["seed"],
-            args["init_cls"],
-            args["increment"],
-            dset_order = args["dset_variant"]
-        )
-    else:
-        raise NotImplementedError
+    data_manager = DataManager(
+        args["dataset"],
+        args["shuffle"],
+        args["seed"],
+        args["init_cls"],
+        args["increment"]
+    )
 
     model = factory.get_model(args['model_name'], args)
 
