@@ -2,7 +2,7 @@
   <div>
   <h1>Weighted Ensemble Models Are Strong Continual Learners</h1>
 
-[![Static Badge](https://img.shields.io/badge/CoFiMA-arXiv-red)](https://arxiv.org/abs/2310.11482)
+[![Static Badge](https://img.shields.io/badge/CoFiMA-arXiv-red)](https://arxiv.org/abs/2312.08977)
 
   </div>
 
@@ -24,7 +24,7 @@
 </div>
 
 
-The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2310.11482)" in PyTorch.
+The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2312.08977)" in PyTorch.
 
 ## Abstract
 In this work, we study the problem of continual learning (CL) where the goal is to learn a model on a 
