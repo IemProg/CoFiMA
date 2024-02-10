@@ -9,7 +9,6 @@ def main():
     wt_alpha = args.wt_alpha
 
     seed = args.seed
-    fisher_weighting = args.fisher_weighting
     wandb_mode = args.wandb_mode
     gpus = args.gpus
 
@@ -19,8 +18,6 @@ def main():
 
     # restore dataset name from arguments
     args["wt_alpha"] = wt_alpha
-
-    args["fisher_weighting"] = fisher_weighting
     args["wandb_mode"] = wandb_mode
 
     args["seed"] = [seed]
