@@ -1,6 +1,6 @@
 <div align="center">
   <div>
-  <h1>Weighted Ensemble Models Are Strong Continual Learners [ECCV 2024]</h1> 
+  <h1>Weighted Ensemble Models Are Strong Continual Learners</h1> 
 
 [![Static Badge](https://img.shields.io/badge/CoFiMA-arXiv-red)](https://arxiv.org/abs/2312.08977)
 
@@ -25,6 +25,8 @@
 
 
 The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2312.08977)" in PyTorch.
+
+📣 Published as a conference paper at ECCV 2024
 
 ## Abstract
 In this work, we study the problem of continual learning (CL) where the goal is to learn a model on a 
