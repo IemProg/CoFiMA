@@ -1,6 +1,6 @@
 <div align="center">
   <div>
-  <h1>Weighted Ensemble Models Are Strong Continual Learners</h1>
+  <h1>Weighted Ensemble Models Are Strong Continual Learners [ECCV 2024]</h1> 
 
 [![Static Badge](https://img.shields.io/badge/CoFiMA-arXiv-red)](https://arxiv.org/abs/2312.08977)
 
