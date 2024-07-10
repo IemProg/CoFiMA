@@ -19,7 +19,7 @@
 <div>
 <sup>1</sup>Telecom-Paris, Institut Polytechnique de Paris&emsp;
 
-<sup>2</sup>University of Aberdeen&emsp;
+<sup>2</sup>University of Trento, Italy&emsp;
 </div>
 </div>
 
