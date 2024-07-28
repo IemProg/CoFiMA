@@ -64,9 +64,9 @@ The default log file for CoFiMA evaluated on the main benchmarks in Tab.1 are in
 ## Training
 to launch the training of CoMA or CoFiMA on CIFAR-100, run the following command:
 
-```python main.py --config configs/cofima/cofima_cifar.yaml```
+```python main.py --config exps/cofima/cofima_cifar.yaml```
 
-```python main.py --config configs/cofima/cofima_imgnetr.yaml```
+```python main.py --config exps/cofima/cofima_imgnetr.yaml```
 
 
 ## Citation
