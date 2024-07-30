@@ -74,13 +74,11 @@ to launch the training of CoMA or CoFiMA on CIFAR-100, run the following command
 If you find this work helpful, please cite our paper.
 
 ```bibtex
-@misc{marouf2023cofima,
+@misc{marouf2024weightedensemblemodelsstrong,
       title={Weighted Ensemble Models Are Strong Continual Learners}, 
       author={Imad Eddine Marouf and Subhankar Roy and Enzo Tartaglione and Stéphane Lathuilière},
-      year={2023},
-      eprint={2310.11482},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle = {European Conference on Computer Vision (ECCV)},
+      year    = {2024}
 }
 ```
 
