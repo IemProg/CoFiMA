@@ -1,0 +1,818 @@
+2024-12-08 12:51:42,554 [trainer.py] => config: exps/cofima/cofima_imgnetr.json
+2024-12-08 12:51:42,554 [trainer.py] => test_only: False
+2024-12-08 12:51:42,554 [trainer.py] => experiment_name: Reproduce
+2024-12-08 12:51:42,554 [trainer.py] => exp_grp: InitialBaselines
+2024-12-08 12:51:42,554 [trainer.py] => wt_alpha: 0.5
+2024-12-08 12:51:42,554 [trainer.py] => seed: 1993
+2024-12-08 12:51:42,554 [trainer.py] => wandb_mode: offline
+2024-12-08 12:51:42,554 [trainer.py] => gpus: ['0']
+2024-12-08 12:51:42,554 [trainer.py] => prefix: reproduce
+2024-12-08 12:51:42,554 [trainer.py] => dataset: imagenet-r
+2024-12-08 12:51:42,555 [trainer.py] => memory_size: 0
+2024-12-08 12:51:42,555 [trainer.py] => memory_per_class: 0
+2024-12-08 12:51:42,555 [trainer.py] => fixed_memory: False
+2024-12-08 12:51:42,555 [trainer.py] => shuffle: True
+2024-12-08 12:51:42,555 [trainer.py] => init_cls: 20
+2024-12-08 12:51:42,555 [trainer.py] => increment: 20
+2024-12-08 12:51:42,555 [trainer.py] => model_name: cofima_imgnetr
+2024-12-08 12:51:42,555 [trainer.py] => model_postfix: 50e
+2024-12-08 12:51:42,555 [trainer.py] => convnet_type: vit-b-p16
+2024-12-08 12:51:42,555 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-12-08 12:51:42,555 [trainer.py] => epochs: 50
+2024-12-08 12:51:42,555 [trainer.py] => ca_epochs: 5
+2024-12-08 12:51:42,555 [trainer.py] => ca_with_logit_norm: 0.1
+2024-12-08 12:51:42,556 [trainer.py] => milestones: [40]
+2024-12-08 12:51:42,556 [trainer.py] => fisher-weighting: True
+2024-12-08 12:51:42,556 [trainer.py] => init_w: -1
+2024-12-08 12:51:42,556 [trainer.py] => run_id: 0
+2024-12-08 12:51:43,482 [data_manager.py] => [168, 136, 51, 9, 183, 101, 171, 99, 42, 159, 191, 70, 16, 188, 27, 10, 175, 26, 68, 187, 98, 6, 85, 35, 112, 43, 100, 0, 103, 181, 88, 59, 4, 2, 116, 174, 94, 80, 106, 1, 147, 17, 141, 131, 72, 23, 173, 54, 197, 118, 87, 32, 79, 104, 91, 19, 135, 107, 178, 36, 11, 199, 142, 8, 122, 3, 28, 57, 153, 172, 190, 56, 49, 44, 97, 62, 151, 169, 194, 55, 192, 12, 189, 78, 66, 180, 15, 137, 109, 134, 92, 119, 126, 52, 170, 40, 148, 65, 144, 64, 138, 45, 77, 89, 154, 90, 71, 193, 74, 30, 113, 143, 96, 84, 67, 50, 186, 156, 69, 21, 18, 111, 108, 58, 125, 157, 150, 110, 182, 129, 166, 83, 81, 60, 13, 165, 14, 176, 63, 117, 5, 22, 145, 121, 38, 41, 82, 127, 114, 20, 31, 53, 37, 163, 196, 130, 152, 162, 86, 76, 24, 34, 184, 149, 33, 128, 198, 155, 146, 167, 139, 120, 140, 102, 47, 25, 158, 123, 46, 164, 61, 7, 115, 75, 133, 160, 105, 132, 179, 124, 48, 73, 93, 39, 95, 195, 29, 177, 185, 161]
+2024-12-08 12:51:46,705 [cofima.py] => fic_bcb: False
+2024-12-08 12:51:46,706 [trainer.py] => All params: 85798656
+2024-12-08 12:51:46,706 [trainer.py] => Trainable params: 85798656
+2024-12-08 12:51:46,707 [cofima.py] => Learning on 0-20
+2024-12-08 12:52:03,703 [cofima.py] => Task 0, Epoch 1/50 => Loss 2.237
+2024-12-08 12:52:12,914 [cofima.py] => Task 0, Epoch 2/50 => Loss 0.912
+2024-12-08 12:52:21,928 [cofima.py] => Task 0, Epoch 3/50 => Loss 0.612
+2024-12-08 12:52:30,948 [cofima.py] => Task 0, Epoch 4/50 => Loss 0.484
+2024-12-08 12:52:48,596 [cofima.py] => Task 0, Epoch 5/50 => Loss 0.404, Train_accy 89.940, Test_accy 90.130
+2024-12-08 12:52:57,643 [cofima.py] => Task 0, Epoch 6/50 => Loss 0.398
+2024-12-08 12:53:06,726 [cofima.py] => Task 0, Epoch 7/50 => Loss 0.345
+2024-12-08 12:53:16,163 [cofima.py] => Task 0, Epoch 8/50 => Loss 0.289
+2024-12-08 12:53:25,737 [cofima.py] => Task 0, Epoch 9/50 => Loss 0.288
+2024-12-08 12:53:43,337 [cofima.py] => Task 0, Epoch 10/50 => Loss 0.271, Train_accy 94.120, Test_accy 91.580
+2024-12-08 12:53:52,782 [cofima.py] => Task 0, Epoch 11/50 => Loss 0.262
+2024-12-08 12:54:02,015 [cofima.py] => Task 0, Epoch 12/50 => Loss 0.253
+2024-12-08 12:54:11,473 [cofima.py] => Task 0, Epoch 13/50 => Loss 0.259
+2024-12-08 12:54:20,786 [cofima.py] => Task 0, Epoch 14/50 => Loss 0.235
+2024-12-08 12:54:37,953 [cofima.py] => Task 0, Epoch 15/50 => Loss 0.215, Train_accy 94.290, Test_accy 91.730
+2024-12-08 12:54:47,175 [cofima.py] => Task 0, Epoch 16/50 => Loss 0.204
+2024-12-08 12:54:56,476 [cofima.py] => Task 0, Epoch 17/50 => Loss 0.208
+2024-12-08 12:55:05,879 [cofima.py] => Task 0, Epoch 18/50 => Loss 0.220
+2024-12-08 12:55:15,035 [cofima.py] => Task 0, Epoch 19/50 => Loss 0.191
+2024-12-08 12:55:32,669 [cofima.py] => Task 0, Epoch 20/50 => Loss 0.196, Train_accy 95.610, Test_accy 92.160
+2024-12-08 12:55:41,916 [cofima.py] => Task 0, Epoch 21/50 => Loss 0.188
+2024-12-08 12:55:51,012 [cofima.py] => Task 0, Epoch 22/50 => Loss 0.186
+2024-12-08 12:56:00,466 [cofima.py] => Task 0, Epoch 23/50 => Loss 0.188
+2024-12-08 12:56:09,707 [cofima.py] => Task 0, Epoch 24/50 => Loss 0.177
+2024-12-08 12:56:27,353 [cofima.py] => Task 0, Epoch 25/50 => Loss 0.162, Train_accy 95.650, Test_accy 92.160
+2024-12-08 12:56:36,925 [cofima.py] => Task 0, Epoch 26/50 => Loss 0.174
+2024-12-08 12:56:46,108 [cofima.py] => Task 0, Epoch 27/50 => Loss 0.162
+2024-12-08 12:56:55,404 [cofima.py] => Task 0, Epoch 28/50 => Loss 0.165
+2024-12-08 12:57:04,684 [cofima.py] => Task 0, Epoch 29/50 => Loss 0.150
+2024-12-08 12:57:22,712 [cofima.py] => Task 0, Epoch 30/50 => Loss 0.160, Train_accy 96.290, Test_accy 91.730
+2024-12-08 12:57:32,145 [cofima.py] => Task 0, Epoch 31/50 => Loss 0.148
+2024-12-08 12:57:41,659 [cofima.py] => Task 0, Epoch 32/50 => Loss 0.153
+2024-12-08 12:57:51,130 [cofima.py] => Task 0, Epoch 33/50 => Loss 0.151
+2024-12-08 12:58:00,731 [cofima.py] => Task 0, Epoch 34/50 => Loss 0.136
+2024-12-08 12:58:18,873 [cofima.py] => Task 0, Epoch 35/50 => Loss 0.160, Train_accy 96.860, Test_accy 92.160
+2024-12-08 12:58:28,275 [cofima.py] => Task 0, Epoch 36/50 => Loss 0.154
+2024-12-08 12:58:37,910 [cofima.py] => Task 0, Epoch 37/50 => Loss 0.134
+2024-12-08 12:58:47,526 [cofima.py] => Task 0, Epoch 38/50 => Loss 0.125
+2024-12-08 12:58:57,057 [cofima.py] => Task 0, Epoch 39/50 => Loss 0.134
+2024-12-08 12:59:14,287 [cofima.py] => Task 0, Epoch 40/50 => Loss 0.158, Train_accy 95.860, Test_accy 92.020
+2024-12-08 12:59:23,815 [cofima.py] => Task 0, Epoch 41/50 => Loss 0.130
+2024-12-08 12:59:33,469 [cofima.py] => Task 0, Epoch 42/50 => Loss 0.154
+2024-12-08 12:59:42,860 [cofima.py] => Task 0, Epoch 43/50 => Loss 0.113
+2024-12-08 12:59:52,318 [cofima.py] => Task 0, Epoch 44/50 => Loss 0.133
+2024-12-08 13:00:10,034 [cofima.py] => Task 0, Epoch 45/50 => Loss 0.126, Train_accy 96.900, Test_accy 92.020
+2024-12-08 13:00:19,410 [cofima.py] => Task 0, Epoch 46/50 => Loss 0.123
+2024-12-08 13:00:28,892 [cofima.py] => Task 0, Epoch 47/50 => Loss 0.139
+2024-12-08 13:00:38,684 [cofima.py] => Task 0, Epoch 48/50 => Loss 0.129
+2024-12-08 13:00:48,319 [cofima.py] => Task 0, Epoch 49/50 => Loss 0.124
+2024-12-08 13:01:06,056 [cofima.py] => Task 0, Epoch 50/50 => Loss 0.133, Train_accy 96.720, Test_accy 92.160
+2024-12-08 13:01:48,254 [cofima.py] => Exemplar size: 0
+2024-12-08 13:01:49,168 [trainer.py] => No NME accuracy.
+2024-12-08 13:01:49,168 [trainer.py] => CNN: {'total': 92.16, '00-09': 91.8, '10-19': 92.47, 'old': 0, 'new': 92.16}
+2024-12-08 13:01:49,168 [trainer.py] => CNN top1 curve: [92.16]
+2024-12-08 13:01:49,168 [trainer.py] => CNN top1 avg: 92.16
+2024-12-08 13:01:49,169 [trainer.py] => CNN top5 curve: [98.4]
+
+2024-12-08 13:01:49,170 [trainer.py] => All params: 85814036
+2024-12-08 13:01:49,170 [trainer.py] => Trainable params: 85814036
+2024-12-08 13:01:49,174 [cofima.py] => Learning on 20-40
+2024-12-08 13:01:58,568 [cofima.py] => Task 1, Epoch 1/50 => Loss 1.704
+2024-12-08 13:02:07,443 [cofima.py] => Task 1, Epoch 2/50 => Loss 0.642
+2024-12-08 13:02:16,342 [cofima.py] => Task 1, Epoch 3/50 => Loss 0.578
+2024-12-08 13:02:25,702 [cofima.py] => Task 1, Epoch 4/50 => Loss 0.504
+2024-12-08 13:02:44,368 [cofima.py] => Task 1, Epoch 5/50 => Loss 0.395, Train_accy 78.300, Test_accy 86.220
+2024-12-08 13:02:53,317 [cofima.py] => Task 1, Epoch 6/50 => Loss 0.378
+2024-12-08 13:03:02,394 [cofima.py] => Task 1, Epoch 7/50 => Loss 0.367
+2024-12-08 13:03:11,798 [cofima.py] => Task 1, Epoch 8/50 => Loss 0.388
+2024-12-08 13:03:21,094 [cofima.py] => Task 1, Epoch 9/50 => Loss 0.438
+2024-12-08 13:03:39,333 [cofima.py] => Task 1, Epoch 10/50 => Loss 0.369, Train_accy 83.490, Test_accy 86.980
+2024-12-08 13:03:48,698 [cofima.py] => Task 1, Epoch 11/50 => Loss 0.272
+2024-12-08 13:03:57,748 [cofima.py] => Task 1, Epoch 12/50 => Loss 0.285
+2024-12-08 13:04:06,687 [cofima.py] => Task 1, Epoch 13/50 => Loss 0.289
+2024-12-08 13:04:15,718 [cofima.py] => Task 1, Epoch 14/50 => Loss 0.290
+2024-12-08 13:04:33,958 [cofima.py] => Task 1, Epoch 15/50 => Loss 0.288, Train_accy 86.610, Test_accy 87.430
+2024-12-08 13:04:43,177 [cofima.py] => Task 1, Epoch 16/50 => Loss 0.234
+2024-12-08 13:04:52,445 [cofima.py] => Task 1, Epoch 17/50 => Loss 0.258
+2024-12-08 13:05:01,423 [cofima.py] => Task 1, Epoch 18/50 => Loss 0.296
+2024-12-08 13:05:10,521 [cofima.py] => Task 1, Epoch 19/50 => Loss 0.267
+2024-12-08 13:05:28,661 [cofima.py] => Task 1, Epoch 20/50 => Loss 0.229, Train_accy 88.410, Test_accy 88.040
+2024-12-08 13:05:37,513 [cofima.py] => Task 1, Epoch 21/50 => Loss 0.237
+2024-12-08 13:05:46,453 [cofima.py] => Task 1, Epoch 22/50 => Loss 0.224
+2024-12-08 13:05:55,745 [cofima.py] => Task 1, Epoch 23/50 => Loss 0.216
+2024-12-08 13:06:04,586 [cofima.py] => Task 1, Epoch 24/50 => Loss 0.218
+2024-12-08 13:06:22,822 [cofima.py] => Task 1, Epoch 25/50 => Loss 0.198, Train_accy 90.120, Test_accy 88.570
+2024-12-08 13:06:31,661 [cofima.py] => Task 1, Epoch 26/50 => Loss 0.226
+2024-12-08 13:06:40,886 [cofima.py] => Task 1, Epoch 27/50 => Loss 0.279
+2024-12-08 13:06:49,728 [cofima.py] => Task 1, Epoch 28/50 => Loss 0.317
+2024-12-08 13:06:58,583 [cofima.py] => Task 1, Epoch 29/50 => Loss 0.220
+2024-12-08 13:07:16,915 [cofima.py] => Task 1, Epoch 30/50 => Loss 0.195, Train_accy 90.870, Test_accy 88.340
+2024-12-08 13:07:25,739 [cofima.py] => Task 1, Epoch 31/50 => Loss 0.215
+2024-12-08 13:07:34,751 [cofima.py] => Task 1, Epoch 32/50 => Loss 0.177
+2024-12-08 13:07:43,841 [cofima.py] => Task 1, Epoch 33/50 => Loss 0.245
+2024-12-08 13:07:52,872 [cofima.py] => Task 1, Epoch 34/50 => Loss 0.221
+2024-12-08 13:08:11,225 [cofima.py] => Task 1, Epoch 35/50 => Loss 0.214, Train_accy 90.940, Test_accy 87.810
+2024-12-08 13:08:20,115 [cofima.py] => Task 1, Epoch 36/50 => Loss 0.248
+2024-12-08 13:08:29,248 [cofima.py] => Task 1, Epoch 37/50 => Loss 0.244
+2024-12-08 13:08:38,321 [cofima.py] => Task 1, Epoch 38/50 => Loss 0.186
+2024-12-08 13:08:47,269 [cofima.py] => Task 1, Epoch 39/50 => Loss 0.218
+2024-12-08 13:09:05,102 [cofima.py] => Task 1, Epoch 40/50 => Loss 0.231, Train_accy 90.910, Test_accy 86.220
+2024-12-08 13:09:13,777 [cofima.py] => Task 1, Epoch 41/50 => Loss 0.216
+2024-12-08 13:09:22,407 [cofima.py] => Task 1, Epoch 42/50 => Loss 0.198
+2024-12-08 13:09:31,330 [cofima.py] => Task 1, Epoch 43/50 => Loss 0.174
+2024-12-08 13:09:40,439 [cofima.py] => Task 1, Epoch 44/50 => Loss 0.189
+2024-12-08 13:09:58,804 [cofima.py] => Task 1, Epoch 45/50 => Loss 0.190, Train_accy 92.510, Test_accy 87.130
+2024-12-08 13:10:07,836 [cofima.py] => Task 1, Epoch 46/50 => Loss 0.223
+2024-12-08 13:10:17,166 [cofima.py] => Task 1, Epoch 47/50 => Loss 0.190
+2024-12-08 13:10:26,262 [cofima.py] => Task 1, Epoch 48/50 => Loss 0.373
+2024-12-08 13:10:35,518 [cofima.py] => Task 1, Epoch 49/50 => Loss 0.190
+2024-12-08 13:10:53,592 [cofima.py] => Task 1, Epoch 50/50 => Loss 0.175, Train_accy 92.150, Test_accy 86.900
+2024-12-10 16:35:27,815 [trainer.py] => config: exps/cofima/cofima_imgnetr.json
+2024-12-10 16:35:27,815 [trainer.py] => test_only: False
+2024-12-10 16:35:27,816 [trainer.py] => experiment_name: Reproduce
+2024-12-10 16:35:27,816 [trainer.py] => exp_grp: InitialBaselines
+2024-12-10 16:35:27,816 [trainer.py] => wt_alpha: 0.5
+2024-12-10 16:35:27,816 [trainer.py] => seed: 1993
+2024-12-10 16:35:27,816 [trainer.py] => wandb_mode: offline
+2024-12-10 16:35:27,816 [trainer.py] => gpus: ['0']
+2024-12-10 16:35:27,816 [trainer.py] => prefix: reproduce
+2024-12-10 16:35:27,816 [trainer.py] => dataset: imagenet-r
+2024-12-10 16:35:27,816 [trainer.py] => memory_size: 0
+2024-12-10 16:35:27,816 [trainer.py] => memory_per_class: 0
+2024-12-10 16:35:27,817 [trainer.py] => fixed_memory: False
+2024-12-10 16:35:27,817 [trainer.py] => shuffle: True
+2024-12-10 16:35:27,817 [trainer.py] => init_cls: 20
+2024-12-10 16:35:27,817 [trainer.py] => increment: 20
+2024-12-10 16:35:27,817 [trainer.py] => model_name: cofima_imgnetr
+2024-12-10 16:35:27,817 [trainer.py] => model_postfix: 50e
+2024-12-10 16:35:27,817 [trainer.py] => convnet_type: vit-b-p16
+2024-12-10 16:35:27,817 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-12-10 16:35:27,817 [trainer.py] => epochs: 50
+2024-12-10 16:35:27,817 [trainer.py] => ca_epochs: 5
+2024-12-10 16:35:27,818 [trainer.py] => ca_with_logit_norm: 0.1
+2024-12-10 16:35:27,818 [trainer.py] => milestones: [40]
+2024-12-10 16:35:27,818 [trainer.py] => fisher-weighting: True
+2024-12-10 16:35:27,818 [trainer.py] => init_w: -1
+2024-12-10 16:35:27,818 [trainer.py] => run_id: 0
+2024-12-10 16:35:29,118 [data_manager.py] => [168, 136, 51, 9, 183, 101, 171, 99, 42, 159, 191, 70, 16, 188, 27, 10, 175, 26, 68, 187, 98, 6, 85, 35, 112, 43, 100, 0, 103, 181, 88, 59, 4, 2, 116, 174, 94, 80, 106, 1, 147, 17, 141, 131, 72, 23, 173, 54, 197, 118, 87, 32, 79, 104, 91, 19, 135, 107, 178, 36, 11, 199, 142, 8, 122, 3, 28, 57, 153, 172, 190, 56, 49, 44, 97, 62, 151, 169, 194, 55, 192, 12, 189, 78, 66, 180, 15, 137, 109, 134, 92, 119, 126, 52, 170, 40, 148, 65, 144, 64, 138, 45, 77, 89, 154, 90, 71, 193, 74, 30, 113, 143, 96, 84, 67, 50, 186, 156, 69, 21, 18, 111, 108, 58, 125, 157, 150, 110, 182, 129, 166, 83, 81, 60, 13, 165, 14, 176, 63, 117, 5, 22, 145, 121, 38, 41, 82, 127, 114, 20, 31, 53, 37, 163, 196, 130, 152, 162, 86, 76, 24, 34, 184, 149, 33, 128, 198, 155, 146, 167, 139, 120, 140, 102, 47, 25, 158, 123, 46, 164, 61, 7, 115, 75, 133, 160, 105, 132, 179, 124, 48, 73, 93, 39, 95, 195, 29, 177, 185, 161]
+2024-12-10 16:35:32,457 [cofima.py] => fic_bcb: False
+2024-12-10 16:35:32,458 [trainer.py] => All params: 85798656
+2024-12-10 16:35:32,458 [trainer.py] => Trainable params: 85798656
+2024-12-10 16:35:32,459 [cofima.py] => Learning on 0-20
+2024-12-10 16:35:49,950 [cofima.py] => Task 0, Epoch 1/50 => Loss 2.237
+2024-12-10 16:35:59,702 [cofima.py] => Task 0, Epoch 2/50 => Loss 0.912
+2024-12-10 16:36:09,178 [cofima.py] => Task 0, Epoch 3/50 => Loss 0.612
+2024-12-10 16:36:18,411 [cofima.py] => Task 0, Epoch 4/50 => Loss 0.484
+2024-12-10 16:36:36,512 [cofima.py] => Task 0, Epoch 5/50 => Loss 0.404, Train_accy 89.940, Test_accy 90.130
+2024-12-10 16:36:46,289 [cofima.py] => Task 0, Epoch 6/50 => Loss 0.398
+2024-12-10 16:36:55,577 [cofima.py] => Task 0, Epoch 7/50 => Loss 0.345
+2024-12-10 16:37:05,047 [cofima.py] => Task 0, Epoch 8/50 => Loss 0.289
+2024-12-10 16:37:14,539 [cofima.py] => Task 0, Epoch 9/50 => Loss 0.288
+2024-12-10 16:37:33,028 [cofima.py] => Task 0, Epoch 10/50 => Loss 0.271, Train_accy 94.120, Test_accy 91.580
+2024-12-10 16:37:42,613 [cofima.py] => Task 0, Epoch 11/50 => Loss 0.262
+2024-12-10 16:37:52,163 [cofima.py] => Task 0, Epoch 12/50 => Loss 0.253
+2024-12-10 16:38:01,770 [cofima.py] => Task 0, Epoch 13/50 => Loss 0.259
+2024-12-10 16:38:11,255 [cofima.py] => Task 0, Epoch 14/50 => Loss 0.235
+2024-12-10 16:38:29,357 [cofima.py] => Task 0, Epoch 15/50 => Loss 0.215, Train_accy 94.290, Test_accy 91.730
+2024-12-10 16:38:38,915 [cofima.py] => Task 0, Epoch 16/50 => Loss 0.204
+2024-12-10 16:38:48,294 [cofima.py] => Task 0, Epoch 17/50 => Loss 0.208
+2024-12-10 16:38:57,799 [cofima.py] => Task 0, Epoch 18/50 => Loss 0.220
+2024-12-10 16:39:07,205 [cofima.py] => Task 0, Epoch 19/50 => Loss 0.191
+2024-12-10 16:39:25,219 [cofima.py] => Task 0, Epoch 20/50 => Loss 0.196, Train_accy 95.610, Test_accy 92.160
+2024-12-10 16:39:34,590 [cofima.py] => Task 0, Epoch 21/50 => Loss 0.188
+2024-12-10 16:39:44,016 [cofima.py] => Task 0, Epoch 22/50 => Loss 0.186
+2024-12-10 16:39:53,779 [cofima.py] => Task 0, Epoch 23/50 => Loss 0.188
+2024-12-10 16:40:03,259 [cofima.py] => Task 0, Epoch 24/50 => Loss 0.177
+2024-12-10 16:40:21,369 [cofima.py] => Task 0, Epoch 25/50 => Loss 0.162, Train_accy 95.650, Test_accy 92.160
+2024-12-10 16:40:30,979 [cofima.py] => Task 0, Epoch 26/50 => Loss 0.174
+2024-12-10 16:40:40,395 [cofima.py] => Task 0, Epoch 27/50 => Loss 0.162
+2024-12-10 16:40:49,987 [cofima.py] => Task 0, Epoch 28/50 => Loss 0.165
+2024-12-10 16:40:59,546 [cofima.py] => Task 0, Epoch 29/50 => Loss 0.150
+2024-12-10 16:41:17,854 [cofima.py] => Task 0, Epoch 30/50 => Loss 0.160, Train_accy 96.290, Test_accy 91.730
+2024-12-10 16:41:27,636 [cofima.py] => Task 0, Epoch 31/50 => Loss 0.148
+2024-12-10 16:41:37,070 [cofima.py] => Task 0, Epoch 32/50 => Loss 0.153
+2024-12-10 16:41:46,857 [cofima.py] => Task 0, Epoch 33/50 => Loss 0.151
+2024-12-10 16:41:56,753 [cofima.py] => Task 0, Epoch 34/50 => Loss 0.136
+2024-12-10 16:42:14,451 [cofima.py] => Task 0, Epoch 35/50 => Loss 0.160, Train_accy 96.860, Test_accy 92.160
+2024-12-10 16:42:23,878 [cofima.py] => Task 0, Epoch 36/50 => Loss 0.154
+2024-12-10 16:42:33,573 [cofima.py] => Task 0, Epoch 37/50 => Loss 0.134
+2024-12-10 16:42:43,250 [cofima.py] => Task 0, Epoch 38/50 => Loss 0.125
+2024-12-10 16:42:53,041 [cofima.py] => Task 0, Epoch 39/50 => Loss 0.134
+2024-12-10 16:43:11,255 [cofima.py] => Task 0, Epoch 40/50 => Loss 0.158, Train_accy 95.860, Test_accy 92.020
+2024-12-10 16:43:20,702 [cofima.py] => Task 0, Epoch 41/50 => Loss 0.130
+2024-12-10 16:43:30,632 [cofima.py] => Task 0, Epoch 42/50 => Loss 0.154
+2024-12-10 16:43:40,072 [cofima.py] => Task 0, Epoch 43/50 => Loss 0.113
+2024-12-10 16:43:49,541 [cofima.py] => Task 0, Epoch 44/50 => Loss 0.133
+2024-12-10 16:44:07,764 [cofima.py] => Task 0, Epoch 45/50 => Loss 0.126, Train_accy 96.900, Test_accy 92.020
+2024-12-10 16:44:17,371 [cofima.py] => Task 0, Epoch 46/50 => Loss 0.123
+2024-12-10 16:44:27,042 [cofima.py] => Task 0, Epoch 47/50 => Loss 0.139
+2024-12-10 16:44:36,785 [cofima.py] => Task 0, Epoch 48/50 => Loss 0.129
+2024-12-10 16:44:46,198 [cofima.py] => Task 0, Epoch 49/50 => Loss 0.124
+2024-12-10 16:45:04,348 [cofima.py] => Task 0, Epoch 50/50 => Loss 0.133, Train_accy 96.720, Test_accy 92.160
+2024-12-10 16:45:48,596 [cofima.py] => Exemplar size: 0
+2024-12-10 16:45:49,442 [trainer.py] => No NME accuracy.
+2024-12-10 16:45:49,443 [trainer.py] => CNN: {'total': 92.16, '00-09': 91.8, '10-19': 92.47, 'old': 0, 'new': 92.16}
+2024-12-10 16:45:49,443 [trainer.py] => CNN top1 curve: [92.16]
+2024-12-10 16:45:49,443 [trainer.py] => CNN top1 avg: 92.16
+2024-12-10 16:45:49,443 [trainer.py] => CNN top5 curve: [98.4]
+
+2024-12-10 16:45:49,444 [trainer.py] => All params: 85814036
+2024-12-10 16:45:49,444 [trainer.py] => Trainable params: 85814036
+2024-12-10 16:45:49,451 [cofima.py] => Learning on 20-40
+2024-12-10 16:45:59,037 [cofima.py] => Task 1, Epoch 1/50 => Loss 1.704
+2024-12-10 16:46:08,040 [cofima.py] => Task 1, Epoch 2/50 => Loss 0.642
+2024-12-10 16:46:17,188 [cofima.py] => Task 1, Epoch 3/50 => Loss 0.578
+2024-12-10 16:46:26,224 [cofima.py] => Task 1, Epoch 4/50 => Loss 0.504
+2024-12-10 16:46:44,750 [cofima.py] => Task 1, Epoch 5/50 => Loss 0.395, Train_accy 78.300, Test_accy 86.220
+2024-12-10 16:46:54,027 [cofima.py] => Task 1, Epoch 6/50 => Loss 0.378
+2024-12-10 16:47:03,204 [cofima.py] => Task 1, Epoch 7/50 => Loss 0.367
+2024-12-10 16:47:12,289 [cofima.py] => Task 1, Epoch 8/50 => Loss 0.388
+2024-12-10 16:47:21,315 [cofima.py] => Task 1, Epoch 9/50 => Loss 0.438
+2024-12-10 16:47:40,211 [cofima.py] => Task 1, Epoch 10/50 => Loss 0.369, Train_accy 83.490, Test_accy 86.980
+2024-12-10 16:47:49,621 [cofima.py] => Task 1, Epoch 11/50 => Loss 0.272
+2024-12-10 16:47:58,612 [cofima.py] => Task 1, Epoch 12/50 => Loss 0.285
+2024-12-10 16:48:08,053 [cofima.py] => Task 1, Epoch 13/50 => Loss 0.289
+2024-12-10 16:48:17,319 [cofima.py] => Task 1, Epoch 14/50 => Loss 0.290
+2024-12-10 16:48:36,442 [cofima.py] => Task 1, Epoch 15/50 => Loss 0.288, Train_accy 86.610, Test_accy 87.430
+2024-12-10 16:48:46,040 [cofima.py] => Task 1, Epoch 16/50 => Loss 0.234
+2024-12-10 16:48:55,145 [cofima.py] => Task 1, Epoch 17/50 => Loss 0.258
+2024-12-10 16:49:04,234 [cofima.py] => Task 1, Epoch 18/50 => Loss 0.296
+2024-12-10 16:49:13,209 [cofima.py] => Task 1, Epoch 19/50 => Loss 0.267
+2024-12-10 16:49:31,946 [cofima.py] => Task 1, Epoch 20/50 => Loss 0.229, Train_accy 88.410, Test_accy 88.040
+2024-12-10 16:49:41,215 [cofima.py] => Task 1, Epoch 21/50 => Loss 0.237
+2024-12-10 16:49:50,283 [cofima.py] => Task 1, Epoch 22/50 => Loss 0.224
+2024-12-10 16:49:59,304 [cofima.py] => Task 1, Epoch 23/50 => Loss 0.216
+2024-12-10 16:50:08,321 [cofima.py] => Task 1, Epoch 24/50 => Loss 0.218
+2024-12-10 16:50:27,210 [cofima.py] => Task 1, Epoch 25/50 => Loss 0.198, Train_accy 90.120, Test_accy 88.570
+2024-12-10 16:50:36,398 [cofima.py] => Task 1, Epoch 26/50 => Loss 0.226
+2024-12-10 16:50:45,576 [cofima.py] => Task 1, Epoch 27/50 => Loss 0.279
+2024-12-10 16:50:54,921 [cofima.py] => Task 1, Epoch 28/50 => Loss 0.317
+2024-12-10 16:51:03,963 [cofima.py] => Task 1, Epoch 29/50 => Loss 0.220
+2024-12-10 16:51:22,731 [cofima.py] => Task 1, Epoch 30/50 => Loss 0.195, Train_accy 90.870, Test_accy 88.340
+2024-12-10 16:51:31,969 [cofima.py] => Task 1, Epoch 31/50 => Loss 0.215
+2024-12-10 16:51:41,022 [cofima.py] => Task 1, Epoch 32/50 => Loss 0.177
+2024-12-10 16:51:49,980 [cofima.py] => Task 1, Epoch 33/50 => Loss 0.245
+2024-12-10 16:51:59,102 [cofima.py] => Task 1, Epoch 34/50 => Loss 0.221
+2024-12-10 16:52:17,524 [cofima.py] => Task 1, Epoch 35/50 => Loss 0.214, Train_accy 90.940, Test_accy 87.810
+2024-12-10 16:52:26,873 [cofima.py] => Task 1, Epoch 36/50 => Loss 0.248
+2024-12-10 16:52:36,239 [cofima.py] => Task 1, Epoch 37/50 => Loss 0.244
+2024-12-10 16:52:45,542 [cofima.py] => Task 1, Epoch 38/50 => Loss 0.186
+2024-12-10 16:52:54,641 [cofima.py] => Task 1, Epoch 39/50 => Loss 0.218
+2024-12-10 16:53:13,292 [cofima.py] => Task 1, Epoch 40/50 => Loss 0.231, Train_accy 90.910, Test_accy 86.220
+2024-12-10 16:53:22,356 [cofima.py] => Task 1, Epoch 41/50 => Loss 0.216
+2024-12-10 16:53:31,664 [cofima.py] => Task 1, Epoch 42/50 => Loss 0.198
+2024-12-10 16:53:40,793 [cofima.py] => Task 1, Epoch 43/50 => Loss 0.174
+2024-12-10 16:53:49,894 [cofima.py] => Task 1, Epoch 44/50 => Loss 0.189
+2024-12-10 16:54:08,376 [cofima.py] => Task 1, Epoch 45/50 => Loss 0.190, Train_accy 92.510, Test_accy 87.130
+2024-12-10 16:54:17,654 [cofima.py] => Task 1, Epoch 46/50 => Loss 0.223
+2024-12-10 16:54:26,710 [cofima.py] => Task 1, Epoch 47/50 => Loss 0.190
+2024-12-10 16:54:35,779 [cofima.py] => Task 1, Epoch 48/50 => Loss 0.373
+2024-12-10 16:54:44,983 [cofima.py] => Task 1, Epoch 49/50 => Loss 0.190
+2024-12-10 16:55:03,384 [cofima.py] => Task 1, Epoch 50/50 => Loss 0.175, Train_accy 92.150, Test_accy 86.900
+2024-12-10 16:55:49,548 [cofima.py] => CA Task 1 => Loss 0.758, Test_accy 85.090
+2024-12-10 16:55:53,765 [cofima.py] => CA Task 1 => Loss 0.090, Test_accy 87.060
+2024-12-10 16:55:58,015 [cofima.py] => CA Task 1 => Loss 0.060, Test_accy 87.510
+2024-12-10 16:56:02,487 [cofima.py] => CA Task 1 => Loss 0.055, Test_accy 87.810
+2024-12-10 16:56:06,850 [cofima.py] => CA Task 1 => Loss 0.050, Test_accy 87.810
+2024-12-10 16:56:10,988 [cofima.py] => Exemplar size: 0
+2024-12-10 16:56:11,797 [trainer.py] => No NME accuracy.
+2024-12-10 16:56:11,797 [trainer.py] => CNN: {'total': 87.81, '00-09': 87.7, '10-19': 85.75, '20-29': 88.67, '30-39': 89.46, 'old': 86.65, 'new': 89.08}
+2024-12-10 16:56:11,797 [trainer.py] => CNN top1 curve: [92.16, 87.81]
+2024-12-10 16:56:11,797 [trainer.py] => CNN top1 avg: 89.985
+2024-12-10 16:56:11,798 [trainer.py] => CNN top5 curve: [98.4, 96.82]
+
+2024-12-10 16:56:11,798 [trainer.py] => All params: 85829416
+2024-12-10 16:56:11,799 [trainer.py] => Trainable params: 85829416
+2024-12-10 16:56:11,806 [cofima.py] => Learning on 40-60
+2024-12-10 16:56:20,445 [cofima.py] => Task 2, Epoch 1/50 => Loss 1.920
+2024-12-10 16:56:29,375 [cofima.py] => Task 2, Epoch 2/50 => Loss 0.627
+2024-12-10 16:56:38,024 [cofima.py] => Task 2, Epoch 3/50 => Loss 0.485
+2024-12-10 16:56:46,583 [cofima.py] => Task 2, Epoch 4/50 => Loss 0.434
+2024-12-10 16:57:06,097 [cofima.py] => Task 2, Epoch 5/50 => Loss 0.378, Train_accy 65.860, Test_accy 81.730
+2024-12-10 16:57:14,556 [cofima.py] => Task 2, Epoch 6/50 => Loss 0.375
+2024-12-10 16:57:23,457 [cofima.py] => Task 2, Epoch 7/50 => Loss 0.327
+2024-12-10 16:57:32,332 [cofima.py] => Task 2, Epoch 8/50 => Loss 0.325
+2024-12-10 16:57:41,074 [cofima.py] => Task 2, Epoch 9/50 => Loss 0.271
+2024-12-10 16:58:00,044 [cofima.py] => Task 2, Epoch 10/50 => Loss 0.265, Train_accy 75.030, Test_accy 83.080
+2024-12-10 16:58:08,688 [cofima.py] => Task 2, Epoch 11/50 => Loss 0.262
+2024-12-10 16:58:17,235 [cofima.py] => Task 2, Epoch 12/50 => Loss 0.286
+2024-12-10 16:58:26,114 [cofima.py] => Task 2, Epoch 13/50 => Loss 0.255
+2024-12-10 16:58:34,936 [cofima.py] => Task 2, Epoch 14/50 => Loss 0.227
+2024-12-10 16:58:53,510 [cofima.py] => Task 2, Epoch 15/50 => Loss 0.247, Train_accy 79.210, Test_accy 84.170
+2024-12-10 16:59:02,045 [cofima.py] => Task 2, Epoch 16/50 => Loss 0.222
+2024-12-10 16:59:10,708 [cofima.py] => Task 2, Epoch 17/50 => Loss 0.202
+2024-12-10 16:59:19,482 [cofima.py] => Task 2, Epoch 18/50 => Loss 0.197
+2024-12-10 16:59:28,072 [cofima.py] => Task 2, Epoch 19/50 => Loss 0.200
+2024-12-10 16:59:47,131 [cofima.py] => Task 2, Epoch 20/50 => Loss 0.190, Train_accy 83.100, Test_accy 84.430
+2024-12-10 16:59:55,882 [cofima.py] => Task 2, Epoch 21/50 => Loss 0.186
+2024-12-10 17:00:04,503 [cofima.py] => Task 2, Epoch 22/50 => Loss 0.193
+2024-12-10 17:00:13,125 [cofima.py] => Task 2, Epoch 23/50 => Loss 0.173
+2024-12-10 17:00:22,025 [cofima.py] => Task 2, Epoch 24/50 => Loss 0.172
+2024-12-10 17:00:41,044 [cofima.py] => Task 2, Epoch 25/50 => Loss 0.190, Train_accy 86.600, Test_accy 84.740
+2024-12-10 17:00:49,709 [cofima.py] => Task 2, Epoch 26/50 => Loss 0.159
+2024-12-10 17:00:58,418 [cofima.py] => Task 2, Epoch 27/50 => Loss 0.189
+2024-12-10 17:01:07,319 [cofima.py] => Task 2, Epoch 28/50 => Loss 0.152
+2024-12-10 17:01:16,443 [cofima.py] => Task 2, Epoch 29/50 => Loss 0.140
+2024-12-10 17:01:35,350 [cofima.py] => Task 2, Epoch 30/50 => Loss 0.169, Train_accy 86.090, Test_accy 84.740
+2024-12-10 17:01:43,806 [cofima.py] => Task 2, Epoch 31/50 => Loss 0.181
+2024-12-10 17:01:52,428 [cofima.py] => Task 2, Epoch 32/50 => Loss 0.134
+2024-12-10 17:02:01,747 [cofima.py] => Task 2, Epoch 33/50 => Loss 0.166
+2024-12-10 17:02:10,307 [cofima.py] => Task 2, Epoch 34/50 => Loss 0.156
+2024-12-10 17:02:29,269 [cofima.py] => Task 2, Epoch 35/50 => Loss 0.150, Train_accy 86.940, Test_accy 84.640
+2024-12-10 17:02:38,081 [cofima.py] => Task 2, Epoch 36/50 => Loss 0.173
+2024-12-10 17:02:46,948 [cofima.py] => Task 2, Epoch 37/50 => Loss 0.163
+2024-12-10 17:02:55,585 [cofima.py] => Task 2, Epoch 38/50 => Loss 0.147
+2024-12-10 17:03:04,274 [cofima.py] => Task 2, Epoch 39/50 => Loss 0.140
+2024-12-10 17:03:23,397 [cofima.py] => Task 2, Epoch 40/50 => Loss 0.125, Train_accy 88.690, Test_accy 84.330
+2024-12-10 17:03:31,689 [cofima.py] => Task 2, Epoch 41/50 => Loss 0.148
+2024-12-10 17:03:40,263 [cofima.py] => Task 2, Epoch 42/50 => Loss 0.136
+2024-12-10 17:03:48,882 [cofima.py] => Task 2, Epoch 43/50 => Loss 0.159
+2024-12-10 17:03:57,378 [cofima.py] => Task 2, Epoch 44/50 => Loss 0.147
+2024-12-10 17:04:16,429 [cofima.py] => Task 2, Epoch 45/50 => Loss 0.121, Train_accy 88.260, Test_accy 84.380
+2024-12-10 17:04:24,992 [cofima.py] => Task 2, Epoch 46/50 => Loss 0.130
+2024-12-10 17:04:34,194 [cofima.py] => Task 2, Epoch 47/50 => Loss 0.147
+2024-12-10 17:04:42,812 [cofima.py] => Task 2, Epoch 48/50 => Loss 0.128
+2024-12-10 17:04:51,686 [cofima.py] => Task 2, Epoch 49/50 => Loss 0.125
+2024-12-10 17:05:10,867 [cofima.py] => Task 2, Epoch 50/50 => Loss 0.137, Train_accy 88.310, Test_accy 84.540
+2024-12-10 17:05:56,691 [cofima.py] => CA Task 2 => Loss 0.566, Test_accy 86.200
+2024-12-10 17:06:02,196 [cofima.py] => CA Task 2 => Loss 0.090, Test_accy 86.350
+2024-12-10 17:06:07,612 [cofima.py] => CA Task 2 => Loss 0.063, Test_accy 86.300
+2024-12-10 17:06:12,914 [cofima.py] => CA Task 2 => Loss 0.058, Test_accy 86.090
+2024-12-10 17:06:18,239 [cofima.py] => CA Task 2 => Loss 0.054, Test_accy 86.140
+2024-12-10 17:06:23,085 [cofima.py] => Exemplar size: 0
+2024-12-10 17:06:23,925 [trainer.py] => No NME accuracy.
+2024-12-10 17:06:23,927 [trainer.py] => CNN: {'total': 86.14, '00-09': 85.8, '10-19': 85.75, '20-29': 83.67, '30-39': 86.75, '40-49': 89.07, '50-59': 85.86, 'old': 85.54, 'new': 87.46}
+2024-12-10 17:06:23,927 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14]
+2024-12-10 17:06:23,927 [trainer.py] => CNN top1 avg: 88.70333333333333
+2024-12-10 17:06:23,927 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06]
+
+2024-12-10 17:06:23,929 [trainer.py] => All params: 85844796
+2024-12-10 17:06:23,929 [trainer.py] => Trainable params: 85844796
+2024-12-10 17:06:23,931 [cofima.py] => Learning on 60-80
+2024-12-10 17:06:32,494 [cofima.py] => Task 3, Epoch 1/50 => Loss 1.915
+2024-12-10 17:06:40,755 [cofima.py] => Task 3, Epoch 2/50 => Loss 0.642
+2024-12-10 17:06:49,229 [cofima.py] => Task 3, Epoch 3/50 => Loss 0.487
+2024-12-10 17:06:57,731 [cofima.py] => Task 3, Epoch 4/50 => Loss 0.414
+2024-12-10 17:07:17,539 [cofima.py] => Task 3, Epoch 5/50 => Loss 0.372, Train_accy 65.680, Test_accy 81.060
+2024-12-10 17:07:26,455 [cofima.py] => Task 3, Epoch 6/50 => Loss 0.393
+2024-12-10 17:07:35,371 [cofima.py] => Task 3, Epoch 7/50 => Loss 0.341
+2024-12-10 17:07:44,066 [cofima.py] => Task 3, Epoch 8/50 => Loss 0.305
+2024-12-10 17:07:52,832 [cofima.py] => Task 3, Epoch 9/50 => Loss 0.294
+2024-12-10 17:08:13,017 [cofima.py] => Task 3, Epoch 10/50 => Loss 0.256, Train_accy 72.390, Test_accy 81.750
+2024-12-10 17:08:21,644 [cofima.py] => Task 3, Epoch 11/50 => Loss 0.262
+2024-12-10 17:08:30,341 [cofima.py] => Task 3, Epoch 12/50 => Loss 0.274
+2024-12-10 17:08:38,753 [cofima.py] => Task 3, Epoch 13/50 => Loss 0.250
+2024-12-10 17:08:47,316 [cofima.py] => Task 3, Epoch 14/50 => Loss 0.229
+2024-12-10 17:09:07,433 [cofima.py] => Task 3, Epoch 15/50 => Loss 0.232, Train_accy 77.060, Test_accy 82.190
+2024-12-10 17:09:16,324 [cofima.py] => Task 3, Epoch 16/50 => Loss 0.223
+2024-12-10 17:09:24,860 [cofima.py] => Task 3, Epoch 17/50 => Loss 0.219
+2024-12-10 17:09:33,602 [cofima.py] => Task 3, Epoch 18/50 => Loss 0.216
+2024-12-10 17:09:42,482 [cofima.py] => Task 3, Epoch 19/50 => Loss 0.213
+2024-12-10 17:10:02,018 [cofima.py] => Task 3, Epoch 20/50 => Loss 0.211, Train_accy 80.460, Test_accy 82.790
+2024-12-10 17:10:10,760 [cofima.py] => Task 3, Epoch 21/50 => Loss 0.207
+2024-12-10 17:10:19,341 [cofima.py] => Task 3, Epoch 22/50 => Loss 0.186
+2024-12-10 17:10:27,935 [cofima.py] => Task 3, Epoch 23/50 => Loss 0.207
+2024-12-10 17:10:36,829 [cofima.py] => Task 3, Epoch 24/50 => Loss 0.183
+2024-12-10 17:10:56,728 [cofima.py] => Task 3, Epoch 25/50 => Loss 0.172, Train_accy 81.950, Test_accy 82.710
+2024-12-10 17:11:05,261 [cofima.py] => Task 3, Epoch 26/50 => Loss 0.203
+2024-12-10 17:11:13,817 [cofima.py] => Task 3, Epoch 27/50 => Loss 0.171
+2024-12-10 17:11:22,599 [cofima.py] => Task 3, Epoch 28/50 => Loss 0.199
+2024-12-10 17:11:31,143 [cofima.py] => Task 3, Epoch 29/50 => Loss 0.167
+2024-12-10 17:11:50,907 [cofima.py] => Task 3, Epoch 30/50 => Loss 0.159, Train_accy 83.950, Test_accy 82.950
+2024-12-10 17:11:59,697 [cofima.py] => Task 3, Epoch 31/50 => Loss 0.168
+2024-12-10 17:12:08,422 [cofima.py] => Task 3, Epoch 32/50 => Loss 0.171
+2024-12-10 17:12:17,333 [cofima.py] => Task 3, Epoch 33/50 => Loss 0.171
+2024-12-10 17:12:26,338 [cofima.py] => Task 3, Epoch 34/50 => Loss 0.158
+2024-12-10 17:12:46,358 [cofima.py] => Task 3, Epoch 35/50 => Loss 0.147, Train_accy 85.350, Test_accy 82.990
+2024-12-10 17:12:55,146 [cofima.py] => Task 3, Epoch 36/50 => Loss 0.154
+2024-12-10 17:13:03,622 [cofima.py] => Task 3, Epoch 37/50 => Loss 0.156
+2024-12-10 17:13:12,209 [cofima.py] => Task 3, Epoch 38/50 => Loss 0.148
+2024-12-10 17:13:20,956 [cofima.py] => Task 3, Epoch 39/50 => Loss 0.146
+2024-12-10 17:13:41,086 [cofima.py] => Task 3, Epoch 40/50 => Loss 0.156, Train_accy 86.350, Test_accy 82.790
+2024-12-10 17:13:49,892 [cofima.py] => Task 3, Epoch 41/50 => Loss 0.135
+2024-12-10 17:13:58,623 [cofima.py] => Task 3, Epoch 42/50 => Loss 0.138
+2024-12-10 17:14:07,545 [cofima.py] => Task 3, Epoch 43/50 => Loss 0.150
+2024-12-10 17:14:16,283 [cofima.py] => Task 3, Epoch 44/50 => Loss 0.157
+2024-12-10 17:14:36,432 [cofima.py] => Task 3, Epoch 45/50 => Loss 0.140, Train_accy 86.870, Test_accy 82.790
+2024-12-10 17:14:45,534 [cofima.py] => Task 3, Epoch 46/50 => Loss 0.145
+2024-12-10 17:14:54,132 [cofima.py] => Task 3, Epoch 47/50 => Loss 0.145
+2024-12-10 17:15:02,933 [cofima.py] => Task 3, Epoch 48/50 => Loss 0.136
+2024-12-10 17:15:11,465 [cofima.py] => Task 3, Epoch 49/50 => Loss 0.122
+2024-12-10 17:15:31,277 [cofima.py] => Task 3, Epoch 50/50 => Loss 0.130, Train_accy 87.310, Test_accy 82.910
+2024-12-10 17:16:19,041 [cofima.py] => CA Task 3 => Loss 0.463, Test_accy 84.190
+2024-12-10 17:16:25,500 [cofima.py] => CA Task 3 => Loss 0.099, Test_accy 84.510
+2024-12-10 17:16:31,807 [cofima.py] => CA Task 3 => Loss 0.076, Test_accy 84.470
+2024-12-10 17:16:38,076 [cofima.py] => CA Task 3 => Loss 0.066, Test_accy 84.670
+2024-12-10 17:16:44,343 [cofima.py] => CA Task 3 => Loss 0.063, Test_accy 84.670
+2024-12-10 17:16:50,218 [cofima.py] => Exemplar size: 0
+2024-12-10 17:16:51,074 [trainer.py] => No NME accuracy.
+2024-12-10 17:16:51,075 [trainer.py] => CNN: {'total': 84.67, '00-09': 80.76, '10-19': 85.75, '20-29': 84.0, '30-39': 86.75, '40-49': 85.76, '50-59': 84.54, '60-69': 83.22, '70-79': 86.45, 'old': 84.64, 'new': 84.76}
+2024-12-10 17:16:51,075 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67]
+2024-12-10 17:16:51,075 [trainer.py] => CNN top1 avg: 87.69500000000001
+2024-12-10 17:16:51,075 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88]
+
+2024-12-10 17:16:51,076 [trainer.py] => All params: 85860176
+2024-12-10 17:16:51,076 [trainer.py] => Trainable params: 85860176
+2024-12-10 17:16:51,090 [cofima.py] => Learning on 80-100
+2024-12-10 17:16:59,679 [cofima.py] => Task 4, Epoch 1/50 => Loss 1.948
+2024-12-10 17:17:08,033 [cofima.py] => Task 4, Epoch 2/50 => Loss 0.631
+2024-12-10 17:17:16,217 [cofima.py] => Task 4, Epoch 3/50 => Loss 0.499
+2024-12-10 17:17:24,522 [cofima.py] => Task 4, Epoch 4/50 => Loss 0.402
+2024-12-10 17:17:44,097 [cofima.py] => Task 4, Epoch 5/50 => Loss 0.372, Train_accy 62.670, Test_accy 79.800
+2024-12-10 17:17:52,668 [cofima.py] => Task 4, Epoch 6/50 => Loss 0.377
+2024-12-10 17:18:01,374 [cofima.py] => Task 4, Epoch 7/50 => Loss 0.327
+2024-12-10 17:18:09,869 [cofima.py] => Task 4, Epoch 8/50 => Loss 0.308
+2024-12-10 17:18:18,255 [cofima.py] => Task 4, Epoch 9/50 => Loss 0.306
+2024-12-10 17:18:38,376 [cofima.py] => Task 4, Epoch 10/50 => Loss 0.287, Train_accy 69.380, Test_accy 80.030
+2024-12-10 17:18:46,762 [cofima.py] => Task 4, Epoch 11/50 => Loss 0.275
+2024-12-10 17:18:55,343 [cofima.py] => Task 4, Epoch 12/50 => Loss 0.254
+2024-12-10 17:19:03,783 [cofima.py] => Task 4, Epoch 13/50 => Loss 0.242
+2024-12-10 17:19:12,090 [cofima.py] => Task 4, Epoch 14/50 => Loss 0.215
+2024-12-10 17:19:31,872 [cofima.py] => Task 4, Epoch 15/50 => Loss 0.229, Train_accy 75.860, Test_accy 80.170
+2024-12-10 17:19:40,383 [cofima.py] => Task 4, Epoch 16/50 => Loss 0.214
+2024-12-10 17:19:48,605 [cofima.py] => Task 4, Epoch 17/50 => Loss 0.216
+2024-12-10 17:19:57,226 [cofima.py] => Task 4, Epoch 18/50 => Loss 0.226
+2024-12-10 17:20:05,866 [cofima.py] => Task 4, Epoch 19/50 => Loss 0.207
+2024-12-10 17:20:25,982 [cofima.py] => Task 4, Epoch 20/50 => Loss 0.192, Train_accy 79.310, Test_accy 80.270
+2024-12-10 17:20:34,327 [cofima.py] => Task 4, Epoch 21/50 => Loss 0.191
+2024-12-10 17:20:42,779 [cofima.py] => Task 4, Epoch 22/50 => Loss 0.204
+2024-12-10 17:20:51,025 [cofima.py] => Task 4, Epoch 23/50 => Loss 0.190
+2024-12-10 17:20:59,587 [cofima.py] => Task 4, Epoch 24/50 => Loss 0.185
+2024-12-10 17:21:19,637 [cofima.py] => Task 4, Epoch 25/50 => Loss 0.184, Train_accy 82.570, Test_accy 80.300
+2024-12-10 17:21:28,152 [cofima.py] => Task 4, Epoch 26/50 => Loss 0.162
+2024-12-10 17:21:36,466 [cofima.py] => Task 4, Epoch 27/50 => Loss 0.176
+2024-12-10 17:21:44,676 [cofima.py] => Task 4, Epoch 28/50 => Loss 0.166
+2024-12-10 17:21:53,029 [cofima.py] => Task 4, Epoch 29/50 => Loss 0.176
+2024-12-10 17:22:12,936 [cofima.py] => Task 4, Epoch 30/50 => Loss 0.158, Train_accy 84.050, Test_accy 79.870
+2024-12-10 17:22:21,323 [cofima.py] => Task 4, Epoch 31/50 => Loss 0.151
+2024-12-10 17:22:29,807 [cofima.py] => Task 4, Epoch 32/50 => Loss 0.153
+2024-12-10 17:22:38,142 [cofima.py] => Task 4, Epoch 33/50 => Loss 0.152
+2024-12-10 17:22:46,715 [cofima.py] => Task 4, Epoch 34/50 => Loss 0.135
+2024-12-10 17:23:07,211 [cofima.py] => Task 4, Epoch 35/50 => Loss 0.131, Train_accy 83.310, Test_accy 80.300
+2024-12-10 17:23:15,632 [cofima.py] => Task 4, Epoch 36/50 => Loss 0.140
+2024-12-10 17:23:24,143 [cofima.py] => Task 4, Epoch 37/50 => Loss 0.148
+2024-12-10 17:23:32,412 [cofima.py] => Task 4, Epoch 38/50 => Loss 0.138
+2024-12-10 17:23:40,706 [cofima.py] => Task 4, Epoch 39/50 => Loss 0.132
+2024-12-10 17:24:01,062 [cofima.py] => Task 4, Epoch 40/50 => Loss 0.135, Train_accy 86.440, Test_accy 79.970
+2024-12-10 17:24:09,645 [cofima.py] => Task 4, Epoch 41/50 => Loss 0.132
+2024-12-10 17:24:18,286 [cofima.py] => Task 4, Epoch 42/50 => Loss 0.129
+2024-12-10 17:24:26,814 [cofima.py] => Task 4, Epoch 43/50 => Loss 0.140
+2024-12-10 17:24:35,264 [cofima.py] => Task 4, Epoch 44/50 => Loss 0.133
+2024-12-10 17:24:55,295 [cofima.py] => Task 4, Epoch 45/50 => Loss 0.148, Train_accy 85.380, Test_accy 79.900
+2024-12-10 17:25:03,890 [cofima.py] => Task 4, Epoch 46/50 => Loss 0.136
+2024-12-10 17:25:11,926 [cofima.py] => Task 4, Epoch 47/50 => Loss 0.136
+2024-12-10 17:25:20,285 [cofima.py] => Task 4, Epoch 48/50 => Loss 0.142
+2024-12-10 17:25:28,552 [cofima.py] => Task 4, Epoch 49/50 => Loss 0.115
+2024-12-10 17:25:48,768 [cofima.py] => Task 4, Epoch 50/50 => Loss 0.136, Train_accy 85.750, Test_accy 79.970
+2024-12-10 17:26:37,349 [cofima.py] => CA Task 4 => Loss 0.396, Test_accy 82.080
+2024-12-10 17:26:44,351 [cofima.py] => CA Task 4 => Loss 0.101, Test_accy 81.980
+2024-12-10 17:26:51,673 [cofima.py] => CA Task 4 => Loss 0.075, Test_accy 82.180
+2024-12-10 17:26:59,011 [cofima.py] => CA Task 4 => Loss 0.070, Test_accy 82.280
+2024-12-10 17:27:06,055 [cofima.py] => CA Task 4 => Loss 0.064, Test_accy 82.180
+2024-12-10 17:27:12,765 [cofima.py] => Exemplar size: 0
+2024-12-10 17:27:13,592 [trainer.py] => No NME accuracy.
+2024-12-10 17:27:13,592 [trainer.py] => CNN: {'total': 82.18, '00-09': 80.76, '10-19': 82.53, '20-29': 83.67, '30-39': 84.64, '40-49': 81.46, '50-59': 82.24, '60-69': 80.2, '70-79': 85.35, '80-89': 81.61, '90-99': 77.4, 'old': 82.59, 'new': 80.08}
+2024-12-10 17:27:13,592 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18]
+2024-12-10 17:27:13,593 [trainer.py] => CNN top1 avg: 86.59200000000001
+2024-12-10 17:27:13,593 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0]
+
+2024-12-10 17:27:13,594 [trainer.py] => All params: 85875556
+2024-12-10 17:27:13,594 [trainer.py] => Trainable params: 85875556
+2024-12-10 17:27:13,595 [cofima.py] => Learning on 100-120
+2024-12-10 17:27:23,434 [cofima.py] => Task 5, Epoch 1/50 => Loss 1.611
+2024-12-10 17:27:33,225 [cofima.py] => Task 5, Epoch 2/50 => Loss 0.496
+2024-12-10 17:27:43,293 [cofima.py] => Task 5, Epoch 3/50 => Loss 0.371
+2024-12-10 17:27:52,964 [cofima.py] => Task 5, Epoch 4/50 => Loss 0.353
+2024-12-10 17:28:15,758 [cofima.py] => Task 5, Epoch 5/50 => Loss 0.302, Train_accy 66.150, Test_accy 79.070
+2024-12-10 17:28:25,505 [cofima.py] => Task 5, Epoch 6/50 => Loss 0.309
+2024-12-10 17:28:35,523 [cofima.py] => Task 5, Epoch 7/50 => Loss 0.303
+2024-12-10 17:28:45,418 [cofima.py] => Task 5, Epoch 8/50 => Loss 0.265
+2024-12-10 17:28:55,228 [cofima.py] => Task 5, Epoch 9/50 => Loss 0.242
+2024-12-10 17:29:18,357 [cofima.py] => Task 5, Epoch 10/50 => Loss 0.237, Train_accy 72.500, Test_accy 79.180
+2024-12-10 17:29:28,074 [cofima.py] => Task 5, Epoch 11/50 => Loss 0.223
+2024-12-10 17:29:37,606 [cofima.py] => Task 5, Epoch 12/50 => Loss 0.206
+2024-12-10 17:29:47,249 [cofima.py] => Task 5, Epoch 13/50 => Loss 0.195
+2024-12-10 17:29:57,053 [cofima.py] => Task 5, Epoch 14/50 => Loss 0.191
+2024-12-10 17:30:20,583 [cofima.py] => Task 5, Epoch 15/50 => Loss 0.174, Train_accy 77.560, Test_accy 79.640
+2024-12-10 17:30:30,783 [cofima.py] => Task 5, Epoch 16/50 => Loss 0.183
+2024-12-10 17:30:40,523 [cofima.py] => Task 5, Epoch 17/50 => Loss 0.168
+2024-12-10 17:30:50,365 [cofima.py] => Task 5, Epoch 18/50 => Loss 0.169
+2024-12-10 17:31:00,316 [cofima.py] => Task 5, Epoch 19/50 => Loss 0.184
+2024-12-10 17:31:23,403 [cofima.py] => Task 5, Epoch 20/50 => Loss 0.180, Train_accy 81.460, Test_accy 79.640
+2024-12-10 17:31:33,211 [cofima.py] => Task 5, Epoch 21/50 => Loss 0.180
+2024-12-10 17:31:42,979 [cofima.py] => Task 5, Epoch 22/50 => Loss 0.155
+2024-12-10 17:31:52,663 [cofima.py] => Task 5, Epoch 23/50 => Loss 0.164
+2024-12-10 17:32:02,604 [cofima.py] => Task 5, Epoch 24/50 => Loss 0.129
+2024-12-10 17:32:25,622 [cofima.py] => Task 5, Epoch 25/50 => Loss 0.151, Train_accy 83.860, Test_accy 79.860
+2024-12-10 17:32:35,421 [cofima.py] => Task 5, Epoch 26/50 => Loss 0.139
+2024-12-10 17:32:45,561 [cofima.py] => Task 5, Epoch 27/50 => Loss 0.141
+2024-12-10 17:32:55,383 [cofima.py] => Task 5, Epoch 28/50 => Loss 0.145
+2024-12-10 17:33:05,184 [cofima.py] => Task 5, Epoch 29/50 => Loss 0.149
+2024-12-10 17:33:28,121 [cofima.py] => Task 5, Epoch 30/50 => Loss 0.138, Train_accy 85.290, Test_accy 80.160
+2024-12-10 17:33:38,432 [cofima.py] => Task 5, Epoch 31/50 => Loss 0.135
+2024-12-10 17:33:48,237 [cofima.py] => Task 5, Epoch 32/50 => Loss 0.163
+2024-12-10 17:33:58,242 [cofima.py] => Task 5, Epoch 33/50 => Loss 0.132
+2024-12-10 17:34:08,046 [cofima.py] => Task 5, Epoch 34/50 => Loss 0.118
+2024-12-10 17:34:31,693 [cofima.py] => Task 5, Epoch 35/50 => Loss 0.126, Train_accy 87.240, Test_accy 79.670
+2024-12-10 17:34:41,408 [cofima.py] => Task 5, Epoch 36/50 => Loss 0.132
+2024-12-10 17:34:51,153 [cofima.py] => Task 5, Epoch 37/50 => Loss 0.113
+2024-12-10 17:35:00,763 [cofima.py] => Task 5, Epoch 38/50 => Loss 0.137
+2024-12-10 17:35:10,521 [cofima.py] => Task 5, Epoch 39/50 => Loss 0.139
+2024-12-10 17:35:33,486 [cofima.py] => Task 5, Epoch 40/50 => Loss 0.135, Train_accy 86.870, Test_accy 79.040
+2024-12-10 17:35:43,105 [cofima.py] => Task 5, Epoch 41/50 => Loss 0.151
+2024-12-10 17:35:52,990 [cofima.py] => Task 5, Epoch 42/50 => Loss 0.138
+2024-12-10 17:36:02,406 [cofima.py] => Task 5, Epoch 43/50 => Loss 0.125
+2024-12-10 17:36:12,124 [cofima.py] => Task 5, Epoch 44/50 => Loss 0.134
+2024-12-10 17:36:34,847 [cofima.py] => Task 5, Epoch 45/50 => Loss 0.120, Train_accy 86.790, Test_accy 79.090
+2024-12-10 17:36:44,534 [cofima.py] => Task 5, Epoch 46/50 => Loss 0.117
+2024-12-10 17:36:54,036 [cofima.py] => Task 5, Epoch 47/50 => Loss 0.125
+2024-12-10 17:37:03,590 [cofima.py] => Task 5, Epoch 48/50 => Loss 0.124
+2024-12-10 17:37:13,221 [cofima.py] => Task 5, Epoch 49/50 => Loss 0.117
+2024-12-10 17:37:35,659 [cofima.py] => Task 5, Epoch 50/50 => Loss 0.109, Train_accy 87.470, Test_accy 79.260
+2024-12-10 17:38:25,414 [cofima.py] => CA Task 5 => Loss 0.339, Test_accy 81.040
+2024-12-10 17:38:33,208 [cofima.py] => CA Task 5 => Loss 0.087, Test_accy 81.560
+2024-12-10 17:38:41,085 [cofima.py] => CA Task 5 => Loss 0.073, Test_accy 81.760
+2024-12-10 17:38:48,878 [cofima.py] => CA Task 5 => Loss 0.064, Test_accy 81.760
+2024-12-10 17:38:56,764 [cofima.py] => CA Task 5 => Loss 0.064, Test_accy 81.840
+2024-12-10 17:39:03,717 [cofima.py] => Exemplar size: 0
+2024-12-10 17:39:04,580 [trainer.py] => No NME accuracy.
+2024-12-10 17:39:04,581 [trainer.py] => CNN: {'total': 81.84, '00-09': 77.29, '10-19': 79.57, '20-29': 82.67, '30-39': 84.34, '40-49': 82.12, '50-59': 82.24, '60-69': 80.54, '70-79': 79.49, '80-89': 81.29, '90-99': 75.71, '100-109': 90.85, '110-119': 83.78, 'old': 80.74, 'new': 86.82}
+2024-12-10 17:39:04,581 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18, 81.84]
+2024-12-10 17:39:04,581 [trainer.py] => CNN top1 avg: 85.80000000000001
+2024-12-10 17:39:04,581 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0, 93.85]
+
+2024-12-10 17:39:04,582 [trainer.py] => All params: 85890936
+2024-12-10 17:39:04,583 [trainer.py] => Trainable params: 85890936
+2024-12-10 17:39:04,587 [cofima.py] => Learning on 120-140
+2024-12-10 17:39:12,717 [cofima.py] => Task 6, Epoch 1/50 => Loss 1.930
+2024-12-10 17:39:20,792 [cofima.py] => Task 6, Epoch 2/50 => Loss 0.590
+2024-12-10 17:39:28,895 [cofima.py] => Task 6, Epoch 3/50 => Loss 0.430
+2024-12-10 17:39:37,351 [cofima.py] => Task 6, Epoch 4/50 => Loss 0.354
+2024-12-10 17:39:58,647 [cofima.py] => Task 6, Epoch 5/50 => Loss 0.348, Train_accy 62.340, Test_accy 78.450
+2024-12-10 17:40:07,059 [cofima.py] => Task 6, Epoch 6/50 => Loss 0.332
+2024-12-10 17:40:15,093 [cofima.py] => Task 6, Epoch 7/50 => Loss 0.285
+2024-12-10 17:40:23,383 [cofima.py] => Task 6, Epoch 8/50 => Loss 0.275
+2024-12-10 17:40:31,728 [cofima.py] => Task 6, Epoch 9/50 => Loss 0.260
+2024-12-10 17:40:52,397 [cofima.py] => Task 6, Epoch 10/50 => Loss 0.214, Train_accy 71.850, Test_accy 78.710
+2024-12-10 17:41:00,578 [cofima.py] => Task 6, Epoch 11/50 => Loss 0.220
+2024-12-10 17:41:08,715 [cofima.py] => Task 6, Epoch 12/50 => Loss 0.223
+2024-12-10 17:41:16,774 [cofima.py] => Task 6, Epoch 13/50 => Loss 0.211
+2024-12-10 17:41:25,277 [cofima.py] => Task 6, Epoch 14/50 => Loss 0.180
+2024-12-10 17:41:46,824 [cofima.py] => Task 6, Epoch 15/50 => Loss 0.182, Train_accy 75.380, Test_accy 79.210
+2024-12-10 17:41:54,973 [cofima.py] => Task 6, Epoch 16/50 => Loss 0.194
+2024-12-10 17:42:03,114 [cofima.py] => Task 6, Epoch 17/50 => Loss 0.175
+2024-12-10 17:42:11,505 [cofima.py] => Task 6, Epoch 18/50 => Loss 0.195
+2024-12-10 17:42:19,658 [cofima.py] => Task 6, Epoch 19/50 => Loss 0.162
+2024-12-10 17:42:40,643 [cofima.py] => Task 6, Epoch 20/50 => Loss 0.158, Train_accy 78.010, Test_accy 79.090
+2024-12-10 17:42:48,761 [cofima.py] => Task 6, Epoch 21/50 => Loss 0.173
+2024-12-10 17:42:57,197 [cofima.py] => Task 6, Epoch 22/50 => Loss 0.152
+2024-12-10 17:43:05,424 [cofima.py] => Task 6, Epoch 23/50 => Loss 0.154
+2024-12-10 17:43:13,916 [cofima.py] => Task 6, Epoch 24/50 => Loss 0.142
+2024-12-10 17:43:35,128 [cofima.py] => Task 6, Epoch 25/50 => Loss 0.141, Train_accy 80.560, Test_accy 79.260
+2024-12-10 17:43:43,279 [cofima.py] => Task 6, Epoch 26/50 => Loss 0.128
+2024-12-10 17:43:51,376 [cofima.py] => Task 6, Epoch 27/50 => Loss 0.137
+2024-12-10 17:43:59,796 [cofima.py] => Task 6, Epoch 28/50 => Loss 0.138
+2024-12-10 17:44:07,991 [cofima.py] => Task 6, Epoch 29/50 => Loss 0.133
+2024-12-10 17:44:28,927 [cofima.py] => Task 6, Epoch 30/50 => Loss 0.122, Train_accy 82.630, Test_accy 79.160
+2024-12-10 17:44:37,005 [cofima.py] => Task 6, Epoch 31/50 => Loss 0.129
+2024-12-10 17:44:45,459 [cofima.py] => Task 6, Epoch 32/50 => Loss 0.127
+2024-12-10 17:44:53,718 [cofima.py] => Task 6, Epoch 33/50 => Loss 0.114
+2024-12-10 17:45:01,986 [cofima.py] => Task 6, Epoch 34/50 => Loss 0.133
+2024-12-10 17:45:22,878 [cofima.py] => Task 6, Epoch 35/50 => Loss 0.135, Train_accy 84.700, Test_accy 78.810
+2024-12-10 17:45:31,015 [cofima.py] => Task 6, Epoch 36/50 => Loss 0.131
+2024-12-10 17:45:39,605 [cofima.py] => Task 6, Epoch 37/50 => Loss 0.115
+2024-12-10 17:45:47,804 [cofima.py] => Task 6, Epoch 38/50 => Loss 0.117
+2024-12-10 17:45:55,887 [cofima.py] => Task 6, Epoch 39/50 => Loss 0.099
+2024-12-10 17:46:16,663 [cofima.py] => Task 6, Epoch 40/50 => Loss 0.116, Train_accy 86.060, Test_accy 78.830
+2024-12-10 17:46:24,866 [cofima.py] => Task 6, Epoch 41/50 => Loss 0.124
+2024-12-10 17:46:33,171 [cofima.py] => Task 6, Epoch 42/50 => Loss 0.119
+2024-12-10 17:46:41,276 [cofima.py] => Task 6, Epoch 43/50 => Loss 0.116
+2024-12-10 17:46:49,506 [cofima.py] => Task 6, Epoch 44/50 => Loss 0.124
+2024-12-10 17:47:10,999 [cofima.py] => Task 6, Epoch 45/50 => Loss 0.124, Train_accy 85.640, Test_accy 78.930
+2024-12-10 17:47:19,445 [cofima.py] => Task 6, Epoch 46/50 => Loss 0.118
+2024-12-10 17:47:27,775 [cofima.py] => Task 6, Epoch 47/50 => Loss 0.105
+2024-12-10 17:47:36,065 [cofima.py] => Task 6, Epoch 48/50 => Loss 0.115
+2024-12-10 17:47:44,143 [cofima.py] => Task 6, Epoch 49/50 => Loss 0.119
+2024-12-10 17:48:05,534 [cofima.py] => Task 6, Epoch 50/50 => Loss 0.119, Train_accy 86.110, Test_accy 79.000
+2024-12-10 17:48:54,915 [cofima.py] => CA Task 6 => Loss 0.304, Test_accy 81.230
+2024-12-10 17:49:03,422 [cofima.py] => CA Task 6 => Loss 0.084, Test_accy 81.370
+2024-12-10 17:49:12,033 [cofima.py] => CA Task 6 => Loss 0.071, Test_accy 81.250
+2024-12-10 17:49:20,580 [cofima.py] => CA Task 6 => Loss 0.060, Test_accy 81.230
+2024-12-10 17:49:29,465 [cofima.py] => CA Task 6 => Loss 0.059, Test_accy 81.280
+2024-12-10 17:49:37,377 [cofima.py] => Exemplar size: 0
+2024-12-10 17:49:38,231 [trainer.py] => No NME accuracy.
+2024-12-10 17:49:38,232 [trainer.py] => CNN: {'total': 81.28, '00-09': 74.76, '10-19': 79.57, '20-29': 80.0, '30-39': 83.73, '40-49': 79.47, '50-59': 81.25, '60-69': 79.53, '70-79': 79.49, '80-89': 79.68, '90-99': 76.27, '100-109': 89.44, '110-119': 83.78, '120-129': 84.87, '130-139': 84.56, 'old': 80.74, 'new': 84.71}
+2024-12-10 17:49:38,232 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18, 81.84, 81.28]
+2024-12-10 17:49:38,232 [trainer.py] => CNN top1 avg: 85.15428571428572
+2024-12-10 17:49:38,232 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0, 93.85, 92.88]
+
+2024-12-10 17:49:38,233 [trainer.py] => All params: 85906316
+2024-12-10 17:49:38,234 [trainer.py] => Trainable params: 85906316
+2024-12-10 17:49:38,235 [cofima.py] => Learning on 140-160
+2024-12-10 17:49:48,722 [cofima.py] => Task 7, Epoch 1/50 => Loss 1.583
+2024-12-10 17:49:58,837 [cofima.py] => Task 7, Epoch 2/50 => Loss 0.477
+2024-12-10 17:50:09,010 [cofima.py] => Task 7, Epoch 3/50 => Loss 0.403
+2024-12-10 17:50:19,226 [cofima.py] => Task 7, Epoch 4/50 => Loss 0.336
+2024-12-10 17:50:44,331 [cofima.py] => Task 7, Epoch 5/50 => Loss 0.319, Train_accy 62.460, Test_accy 78.150
+2024-12-10 17:50:54,451 [cofima.py] => Task 7, Epoch 6/50 => Loss 0.284
+2024-12-10 17:51:04,437 [cofima.py] => Task 7, Epoch 7/50 => Loss 0.261
+2024-12-10 17:51:14,437 [cofima.py] => Task 7, Epoch 8/50 => Loss 0.260
+2024-12-10 17:51:24,550 [cofima.py] => Task 7, Epoch 9/50 => Loss 0.245
+2024-12-10 17:51:50,073 [cofima.py] => Task 7, Epoch 10/50 => Loss 0.234, Train_accy 68.750, Test_accy 78.410
+2024-12-10 17:52:00,104 [cofima.py] => Task 7, Epoch 11/50 => Loss 0.225
+2024-12-10 17:52:10,424 [cofima.py] => Task 7, Epoch 12/50 => Loss 0.229
+2024-12-10 17:52:20,903 [cofima.py] => Task 7, Epoch 13/50 => Loss 0.217
+2024-12-10 17:52:31,423 [cofima.py] => Task 7, Epoch 14/50 => Loss 0.221
+2024-12-10 17:52:56,627 [cofima.py] => Task 7, Epoch 15/50 => Loss 0.180, Train_accy 75.110, Test_accy 78.700
+2024-12-10 17:53:06,778 [cofima.py] => Task 7, Epoch 16/50 => Loss 0.197
+2024-12-10 17:53:16,899 [cofima.py] => Task 7, Epoch 17/50 => Loss 0.208
+2024-12-10 17:53:27,415 [cofima.py] => Task 7, Epoch 18/50 => Loss 0.186
+2024-12-10 17:53:37,434 [cofima.py] => Task 7, Epoch 19/50 => Loss 0.190
+2024-12-10 17:54:02,659 [cofima.py] => Task 7, Epoch 20/50 => Loss 0.169, Train_accy 78.120, Test_accy 78.940
+2024-12-10 17:54:12,706 [cofima.py] => Task 7, Epoch 21/50 => Loss 0.163
+2024-12-10 17:54:22,847 [cofima.py] => Task 7, Epoch 22/50 => Loss 0.168
+2024-12-10 17:54:32,795 [cofima.py] => Task 7, Epoch 23/50 => Loss 0.165
+2024-12-10 17:54:42,787 [cofima.py] => Task 7, Epoch 24/50 => Loss 0.154
+2024-12-10 17:55:07,782 [cofima.py] => Task 7, Epoch 25/50 => Loss 0.170, Train_accy 80.260, Test_accy 78.520
+2024-12-10 17:55:17,726 [cofima.py] => Task 7, Epoch 26/50 => Loss 0.161
+2024-12-10 17:55:27,733 [cofima.py] => Task 7, Epoch 27/50 => Loss 0.154
+2024-12-10 17:55:37,787 [cofima.py] => Task 7, Epoch 28/50 => Loss 0.160
+2024-12-10 17:55:47,983 [cofima.py] => Task 7, Epoch 29/50 => Loss 0.140
+2024-12-10 17:56:13,165 [cofima.py] => Task 7, Epoch 30/50 => Loss 0.147, Train_accy 83.270, Test_accy 78.840
+2024-12-10 17:56:23,098 [cofima.py] => Task 7, Epoch 31/50 => Loss 0.147
+2024-12-10 17:56:33,064 [cofima.py] => Task 7, Epoch 32/50 => Loss 0.137
+2024-12-10 17:56:43,256 [cofima.py] => Task 7, Epoch 33/50 => Loss 0.158
+2024-12-10 17:56:53,643 [cofima.py] => Task 7, Epoch 34/50 => Loss 0.145
+2024-12-10 17:57:19,003 [cofima.py] => Task 7, Epoch 35/50 => Loss 0.147, Train_accy 83.660, Test_accy 78.580
+2024-12-10 17:57:29,165 [cofima.py] => Task 7, Epoch 36/50 => Loss 0.147
+2024-12-10 17:57:39,708 [cofima.py] => Task 7, Epoch 37/50 => Loss 0.119
+2024-12-10 17:57:50,064 [cofima.py] => Task 7, Epoch 38/50 => Loss 0.128
+2024-12-10 17:58:00,211 [cofima.py] => Task 7, Epoch 39/50 => Loss 0.121
+2024-12-10 17:58:25,222 [cofima.py] => Task 7, Epoch 40/50 => Loss 0.109, Train_accy 84.520, Test_accy 79.020
+2024-12-10 17:58:35,468 [cofima.py] => Task 7, Epoch 41/50 => Loss 0.135
+2024-12-10 17:58:45,813 [cofima.py] => Task 7, Epoch 42/50 => Loss 0.125
+2024-12-10 17:58:56,088 [cofima.py] => Task 7, Epoch 43/50 => Loss 0.139
+2024-12-10 17:59:06,189 [cofima.py] => Task 7, Epoch 44/50 => Loss 0.125
+2024-12-10 17:59:31,275 [cofima.py] => Task 7, Epoch 45/50 => Loss 0.107, Train_accy 86.150, Test_accy 78.880
+2024-12-10 17:59:41,343 [cofima.py] => Task 7, Epoch 46/50 => Loss 0.117
+2024-12-10 17:59:51,540 [cofima.py] => Task 7, Epoch 47/50 => Loss 0.138
+2024-12-10 18:00:01,466 [cofima.py] => Task 7, Epoch 48/50 => Loss 0.129
+2024-12-10 18:00:11,453 [cofima.py] => Task 7, Epoch 49/50 => Loss 0.122
+2024-12-10 18:00:37,473 [cofima.py] => Task 7, Epoch 50/50 => Loss 0.123, Train_accy 86.190, Test_accy 78.800
+2024-12-10 18:01:32,887 [cofima.py] => CA Task 7 => Loss 0.305, Test_accy 80.840
+2024-12-10 18:01:42,685 [cofima.py] => CA Task 7 => Loss 0.092, Test_accy 81.150
+2024-12-10 18:01:52,572 [cofima.py] => CA Task 7 => Loss 0.075, Test_accy 80.980
+2024-12-10 18:02:02,270 [cofima.py] => CA Task 7 => Loss 0.065, Test_accy 80.920
+2024-12-10 18:02:12,108 [cofima.py] => CA Task 7 => Loss 0.063, Test_accy 81.000
+2024-12-10 18:02:20,804 [cofima.py] => Exemplar size: 0
+2024-12-10 18:02:21,673 [trainer.py] => No NME accuracy.
+2024-12-10 18:02:21,673 [trainer.py] => CNN: {'total': 81.0, '00-09': 72.87, '10-19': 76.88, '20-29': 81.0, '30-39': 83.43, '40-49': 80.13, '50-59': 80.59, '60-69': 78.19, '70-79': 80.22, '80-89': 78.39, '90-99': 74.58, '100-109': 86.97, '110-119': 82.45, '120-129': 81.55, '130-139': 84.56, '140-149': 86.1, '150-159': 84.81, 'old': 80.23, 'new': 85.46}
+2024-12-10 18:02:21,674 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18, 81.84, 81.28, 81.0]
+2024-12-10 18:02:21,674 [trainer.py] => CNN top1 avg: 84.63499999999999
+2024-12-10 18:02:21,674 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0, 93.85, 92.88, 93.12]
+
+2024-12-10 18:02:21,675 [trainer.py] => All params: 85921696
+2024-12-10 18:02:21,675 [trainer.py] => Trainable params: 85921696
+2024-12-10 18:02:21,682 [cofima.py] => Learning on 160-180
+2024-12-10 18:02:29,902 [cofima.py] => Task 8, Epoch 1/50 => Loss 1.984
+2024-12-10 18:02:37,718 [cofima.py] => Task 8, Epoch 2/50 => Loss 0.679
+2024-12-10 18:02:45,716 [cofima.py] => Task 8, Epoch 3/50 => Loss 0.498
+2024-12-10 18:02:53,496 [cofima.py] => Task 8, Epoch 4/50 => Loss 0.431
+2024-12-10 18:03:16,165 [cofima.py] => Task 8, Epoch 5/50 => Loss 0.368, Train_accy 58.570, Test_accy 78.050
+2024-12-10 18:03:24,061 [cofima.py] => Task 8, Epoch 6/50 => Loss 0.369
+2024-12-10 18:03:32,128 [cofima.py] => Task 8, Epoch 7/50 => Loss 0.333
+2024-12-10 18:03:40,516 [cofima.py] => Task 8, Epoch 8/50 => Loss 0.323
+2024-12-10 18:03:49,219 [cofima.py] => Task 8, Epoch 9/50 => Loss 0.300
+2024-12-10 18:04:11,387 [cofima.py] => Task 8, Epoch 10/50 => Loss 0.297, Train_accy 67.610, Test_accy 78.050
+2024-12-10 18:04:19,254 [cofima.py] => Task 8, Epoch 11/50 => Loss 0.273
+2024-12-10 18:04:26,913 [cofima.py] => Task 8, Epoch 12/50 => Loss 0.274
+2024-12-10 18:04:35,058 [cofima.py] => Task 8, Epoch 13/50 => Loss 0.239
+2024-12-10 18:04:42,925 [cofima.py] => Task 8, Epoch 14/50 => Loss 0.258
+2024-12-10 18:05:05,207 [cofima.py] => Task 8, Epoch 15/50 => Loss 0.217, Train_accy 73.100, Test_accy 78.230
+2024-12-10 18:05:13,297 [cofima.py] => Task 8, Epoch 16/50 => Loss 0.227
+2024-12-10 18:05:21,102 [cofima.py] => Task 8, Epoch 17/50 => Loss 0.240
+2024-12-10 18:05:29,001 [cofima.py] => Task 8, Epoch 18/50 => Loss 0.215
+2024-12-10 18:05:36,839 [cofima.py] => Task 8, Epoch 19/50 => Loss 0.213
+2024-12-10 18:05:59,096 [cofima.py] => Task 8, Epoch 20/50 => Loss 0.185, Train_accy 77.360, Test_accy 78.030
+2024-12-10 18:06:07,170 [cofima.py] => Task 8, Epoch 21/50 => Loss 0.186
+2024-12-10 18:06:15,231 [cofima.py] => Task 8, Epoch 22/50 => Loss 0.207
+2024-12-10 18:06:22,985 [cofima.py] => Task 8, Epoch 23/50 => Loss 0.192
+2024-12-10 18:06:30,848 [cofima.py] => Task 8, Epoch 24/50 => Loss 0.196
+2024-12-10 18:06:53,254 [cofima.py] => Task 8, Epoch 25/50 => Loss 0.179, Train_accy 79.980, Test_accy 78.230
+2024-12-10 18:07:01,044 [cofima.py] => Task 8, Epoch 26/50 => Loss 0.195
+2024-12-10 18:07:08,823 [cofima.py] => Task 8, Epoch 27/50 => Loss 0.194
+2024-12-10 18:07:16,661 [cofima.py] => Task 8, Epoch 28/50 => Loss 0.169
+2024-12-10 18:07:24,634 [cofima.py] => Task 8, Epoch 29/50 => Loss 0.174
+2024-12-10 18:07:47,495 [cofima.py] => Task 8, Epoch 30/50 => Loss 0.177, Train_accy 80.750, Test_accy 77.790
+2024-12-10 18:07:55,615 [cofima.py] => Task 8, Epoch 31/50 => Loss 0.181
+2024-12-10 18:08:03,976 [cofima.py] => Task 8, Epoch 32/50 => Loss 0.168
+2024-12-10 18:08:11,761 [cofima.py] => Task 8, Epoch 33/50 => Loss 0.161
+2024-12-10 18:08:19,780 [cofima.py] => Task 8, Epoch 34/50 => Loss 0.144
+2024-12-10 18:08:42,596 [cofima.py] => Task 8, Epoch 35/50 => Loss 0.145, Train_accy 84.090, Test_accy 77.590
+2024-12-10 18:08:50,641 [cofima.py] => Task 8, Epoch 36/50 => Loss 0.163
+2024-12-10 18:08:58,576 [cofima.py] => Task 8, Epoch 37/50 => Loss 0.156
+2024-12-10 18:09:06,540 [cofima.py] => Task 8, Epoch 38/50 => Loss 0.150
+2024-12-10 18:09:14,602 [cofima.py] => Task 8, Epoch 39/50 => Loss 0.143
+2024-12-10 18:09:37,099 [cofima.py] => Task 8, Epoch 40/50 => Loss 0.157, Train_accy 85.520, Test_accy 77.490
+2024-12-10 18:09:45,562 [cofima.py] => Task 8, Epoch 41/50 => Loss 0.147
+2024-12-10 18:09:53,857 [cofima.py] => Task 8, Epoch 42/50 => Loss 0.199
+2024-12-10 18:10:01,935 [cofima.py] => Task 8, Epoch 43/50 => Loss 0.133
+2024-12-10 18:10:10,021 [cofima.py] => Task 8, Epoch 44/50 => Loss 0.135
+2024-12-10 18:10:32,385 [cofima.py] => Task 8, Epoch 45/50 => Loss 0.138, Train_accy 83.980, Test_accy 77.530
+2024-12-10 18:10:40,347 [cofima.py] => Task 8, Epoch 46/50 => Loss 0.154
+2024-12-10 18:10:48,346 [cofima.py] => Task 8, Epoch 47/50 => Loss 0.126
+2024-12-10 18:10:56,463 [cofima.py] => Task 8, Epoch 48/50 => Loss 0.135
+2024-12-10 18:11:04,210 [cofima.py] => Task 8, Epoch 49/50 => Loss 0.136
+2024-12-10 18:11:27,216 [cofima.py] => Task 8, Epoch 50/50 => Loss 0.166, Train_accy 85.520, Test_accy 77.700
+2024-12-10 18:12:21,467 [cofima.py] => CA Task 8 => Loss 0.284, Test_accy 80.150
+2024-12-10 18:12:31,999 [cofima.py] => CA Task 8 => Loss 0.095, Test_accy 80.320
+2024-12-10 18:12:42,659 [cofima.py] => CA Task 8 => Loss 0.076, Test_accy 80.280
+2024-12-10 18:12:53,353 [cofima.py] => CA Task 8 => Loss 0.068, Test_accy 80.060
+2024-12-10 18:13:04,206 [cofima.py] => CA Task 8 => Loss 0.065, Test_accy 80.020
+2024-12-10 18:13:13,650 [cofima.py] => Exemplar size: 0
+2024-12-10 18:13:14,509 [trainer.py] => No NME accuracy.
+2024-12-10 18:13:14,510 [trainer.py] => CNN: {'total': 80.02, '00-09': 70.35, '10-19': 75.81, '20-29': 79.67, '30-39': 85.24, '40-49': 78.48, '50-59': 77.3, '60-69': 79.19, '70-79': 79.12, '80-89': 77.74, '90-99': 72.32, '100-109': 84.86, '110-119': 82.18, '120-129': 77.49, '130-139': 84.23, '140-149': 85.01, '150-159': 82.6, '160-169': 79.57, '170-179': 85.89, 'old': 79.75, 'new': 82.85}
+2024-12-10 18:13:14,510 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18, 81.84, 81.28, 81.0, 80.02]
+2024-12-10 18:13:14,510 [trainer.py] => CNN top1 avg: 84.1222222222222
+2024-12-10 18:13:14,510 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0, 93.85, 92.88, 93.12, 92.47]
+
+2024-12-10 18:13:14,511 [trainer.py] => All params: 85937076
+2024-12-10 18:13:14,512 [trainer.py] => Trainable params: 85937076
+2024-12-10 18:13:14,519 [cofima.py] => Learning on 180-200
+2024-12-10 18:13:23,552 [cofima.py] => Task 9, Epoch 1/50 => Loss 1.721
+2024-12-10 18:13:32,444 [cofima.py] => Task 9, Epoch 2/50 => Loss 0.549
+2024-12-10 18:13:41,782 [cofima.py] => Task 9, Epoch 3/50 => Loss 0.409
+2024-12-10 18:13:50,822 [cofima.py] => Task 9, Epoch 4/50 => Loss 0.358
+2024-12-10 18:14:15,804 [cofima.py] => Task 9, Epoch 5/50 => Loss 0.335, Train_accy 56.430, Test_accy 76.250
+2024-12-10 18:14:24,925 [cofima.py] => Task 9, Epoch 6/50 => Loss 0.311
+2024-12-10 18:14:33,984 [cofima.py] => Task 9, Epoch 7/50 => Loss 0.276
+2024-12-10 18:14:43,153 [cofima.py] => Task 9, Epoch 8/50 => Loss 0.258
+2024-12-10 18:14:52,212 [cofima.py] => Task 9, Epoch 9/50 => Loss 0.238
+2024-12-10 18:15:17,085 [cofima.py] => Task 9, Epoch 10/50 => Loss 0.235, Train_accy 65.370, Test_accy 76.380
+2024-12-10 18:15:26,424 [cofima.py] => Task 9, Epoch 11/50 => Loss 0.229
+2024-12-10 18:15:35,484 [cofima.py] => Task 9, Epoch 12/50 => Loss 0.212
+2024-12-10 18:15:44,459 [cofima.py] => Task 9, Epoch 13/50 => Loss 0.213
+2024-12-10 18:15:53,673 [cofima.py] => Task 9, Epoch 14/50 => Loss 0.209
+2024-12-10 18:16:18,734 [cofima.py] => Task 9, Epoch 15/50 => Loss 0.222, Train_accy 69.300, Test_accy 77.050
+2024-12-10 18:16:27,638 [cofima.py] => Task 9, Epoch 16/50 => Loss 0.198
+2024-12-10 18:16:36,726 [cofima.py] => Task 9, Epoch 17/50 => Loss 0.181
+2024-12-10 18:16:45,609 [cofima.py] => Task 9, Epoch 18/50 => Loss 0.187
+2024-12-10 18:16:54,822 [cofima.py] => Task 9, Epoch 19/50 => Loss 0.183
+2024-12-10 18:17:19,858 [cofima.py] => Task 9, Epoch 20/50 => Loss 0.172, Train_accy 72.730, Test_accy 76.930
+2024-12-10 18:17:28,899 [cofima.py] => Task 9, Epoch 21/50 => Loss 0.153
+2024-12-10 18:17:37,939 [cofima.py] => Task 9, Epoch 22/50 => Loss 0.173
+2024-12-10 18:17:47,100 [cofima.py] => Task 9, Epoch 23/50 => Loss 0.172
+2024-12-10 18:17:56,255 [cofima.py] => Task 9, Epoch 24/50 => Loss 0.158
+2024-12-10 18:18:21,587 [cofima.py] => Task 9, Epoch 25/50 => Loss 0.166, Train_accy 77.220, Test_accy 76.830
+2024-12-10 18:18:30,685 [cofima.py] => Task 9, Epoch 26/50 => Loss 0.158
+2024-12-10 18:18:39,678 [cofima.py] => Task 9, Epoch 27/50 => Loss 0.144
+2024-12-10 18:18:48,647 [cofima.py] => Task 9, Epoch 28/50 => Loss 0.128
+2024-12-10 18:18:57,566 [cofima.py] => Task 9, Epoch 29/50 => Loss 0.131
+2024-12-10 18:19:22,938 [cofima.py] => Task 9, Epoch 30/50 => Loss 0.127, Train_accy 77.970, Test_accy 76.800
+2024-12-10 18:19:31,840 [cofima.py] => Task 9, Epoch 31/50 => Loss 0.138
+2024-12-10 18:19:40,816 [cofima.py] => Task 9, Epoch 32/50 => Loss 0.147
+2024-12-10 18:19:49,653 [cofima.py] => Task 9, Epoch 33/50 => Loss 0.135
+2024-12-10 18:19:58,767 [cofima.py] => Task 9, Epoch 34/50 => Loss 0.108
+2024-12-10 18:20:23,518 [cofima.py] => Task 9, Epoch 35/50 => Loss 0.132, Train_accy 81.060, Test_accy 76.600
+2024-12-10 18:20:32,470 [cofima.py] => Task 9, Epoch 36/50 => Loss 0.147
+2024-12-10 18:20:41,432 [cofima.py] => Task 9, Epoch 37/50 => Loss 0.123
+2024-12-10 18:20:50,300 [cofima.py] => Task 9, Epoch 38/50 => Loss 0.123
+2024-12-10 18:20:59,575 [cofima.py] => Task 9, Epoch 39/50 => Loss 0.145
+2024-12-10 18:21:24,848 [cofima.py] => Task 9, Epoch 40/50 => Loss 0.126, Train_accy 83.260, Test_accy 76.630
+2024-12-10 18:21:33,944 [cofima.py] => Task 9, Epoch 41/50 => Loss 0.116
+2024-12-10 18:21:42,835 [cofima.py] => Task 9, Epoch 42/50 => Loss 0.095
+2024-12-10 18:21:52,084 [cofima.py] => Task 9, Epoch 43/50 => Loss 0.103
+2024-12-10 18:22:01,148 [cofima.py] => Task 9, Epoch 44/50 => Loss 0.106
+2024-12-10 18:22:25,998 [cofima.py] => Task 9, Epoch 45/50 => Loss 0.120, Train_accy 81.810, Test_accy 76.530
+2024-12-10 18:22:35,081 [cofima.py] => Task 9, Epoch 46/50 => Loss 0.112
+2024-12-10 18:22:43,894 [cofima.py] => Task 9, Epoch 47/50 => Loss 0.119
+2024-12-10 18:22:52,854 [cofima.py] => Task 9, Epoch 48/50 => Loss 0.111
+2024-12-10 18:23:01,880 [cofima.py] => Task 9, Epoch 49/50 => Loss 0.130
+2024-12-10 18:23:26,771 [cofima.py] => Task 9, Epoch 50/50 => Loss 0.124, Train_accy 82.560, Test_accy 76.630
+2024-12-10 18:24:23,857 [cofima.py] => CA Task 9 => Loss 0.260, Test_accy 79.320
+2024-12-10 18:24:35,288 [cofima.py] => CA Task 9 => Loss 0.095, Test_accy 79.380
+2024-12-10 18:24:46,764 [cofima.py] => CA Task 9 => Loss 0.075, Test_accy 79.430
+2024-12-10 18:24:58,255 [cofima.py] => CA Task 9 => Loss 0.068, Test_accy 79.430
+2024-12-10 18:25:09,735 [cofima.py] => CA Task 9 => Loss 0.062, Test_accy 79.320
+2024-12-10 18:25:20,016 [cofima.py] => Exemplar size: 0
+2024-12-10 18:25:20,914 [trainer.py] => No NME accuracy.
+2024-12-10 18:25:20,915 [trainer.py] => CNN: {'total': 79.32, '00-09': 70.03, '10-19': 77.15, '20-29': 77.67, '30-39': 83.13, '40-49': 76.16, '50-59': 76.64, '60-69': 78.19, '70-79': 78.39, '80-89': 76.45, '90-99': 71.75, '100-109': 84.51, '110-119': 81.38, '120-129': 76.01, '130-139': 82.89, '140-149': 83.65, '150-159': 80.94, '160-169': 75.65, '170-179': 84.68, '180-189': 83.44, '190-199': 83.76, 'old': 78.86, 'new': 83.59}
+2024-12-10 18:25:20,915 [trainer.py] => CNN top1 curve: [92.16, 87.81, 86.14, 84.67, 82.18, 81.84, 81.28, 81.0, 80.02, 79.32]
+2024-12-10 18:25:20,915 [trainer.py] => CNN top1 avg: 83.64199999999998
+2024-12-10 18:25:20,915 [trainer.py] => CNN top5 curve: [98.4, 96.82, 96.06, 94.88, 94.0, 93.85, 92.88, 93.12, 92.47, 92.35]
+
+2024-12-10 18:25:20,991 [trainer.py] => final accs: [79.32]
+2024-12-10 18:25:20,992 [trainer.py] => avg accs: [83.64199999999998]

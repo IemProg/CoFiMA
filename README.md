@@ -23,7 +23,6 @@
 </div>
 </div>
 
-
 The code repository for "[Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2312.08977)" in PyTorch.
 
 📣 Published as a conference paper at ECCV 2024
@@ -52,14 +51,14 @@ install the conda environment using the environment.yml file
 ```conda env create --file environement.yml```
 
 ## Pre-trained Models
+
 Please download pre-trained ViT-Base models from [MoCo v3](https://drive.google.com/file/d/1bshDu4jEKztZZvwpTVXSAuCsDoXwCkfy/view?usp=share_link) and [ImageNet-21K](https://drive.google.com/file/d/1PcAOf0tJYs1FVDpj-7lrkSuwXTJXVmuk/view?usp=share_link) and 
 then put or link the pre-trained models to ```CoFiMA/pretrained```
 
 
-## Log file 
-
-The default log file for CoFiMA evaluated on the main benchmarks in Tab.1 are in ```CoFiMA/log.txt```
-
+## Dataset Preparation
+For downloading and preparing the datasets used in our experiments, please refer to the instructions provided in [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT). 
+This repository contains detailed steps for setting up the standard continual learning benchmarks.
 
 ## Training
 to launch the training of CoMA or CoFiMA on CIFAR-100, run the following command:
@@ -68,6 +67,9 @@ to launch the training of CoMA or CoFiMA on CIFAR-100, run the following command
 
 ```python main.py --config exps/cofima/cofima_imgnetr.json```
 
+## Log file 
+
+The default log file for CoFiMA evaluated on the main benchmarks in Tab.1 are in ```CoFiMA/log.txt```
 
 ## Citation
 
