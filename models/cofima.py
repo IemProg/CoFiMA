@@ -168,7 +168,7 @@ class CoFiMA(BaseLearner):
             self.save_checkpoint(self.log_path+'/'+self.model_prefix+'_seed{}_before_ca'.format(self.seed), head_only=self.fix_bcb)
 
         # compute the fisher information matrix
-        if self.args["fisher_weighting"]:
+        if self.args["fisher-weighting"]:
             self.fisher_mat.append(self.getFisherDiagonal(self.train_loader, self.optimizer))
 
         if self._cur_task > 0:
@@ -176,7 +176,7 @@ class CoFiMA(BaseLearner):
             theta_0 = self.prev_nets[self.args["init_w"]]
             theta_1 = self._network.state_dict()
 
-            if self.args["fisher_weighting"]:
+            if self.args["fisher-weighting"]:
                 theta = interpolate_weights(theta_0, theta_1,
                                                     alpha=self.args["wt_alpha"],
                                                     fisher=True, fisher_mat=self.fisher_mat[-2:])
@@ -319,8 +319,8 @@ class CoFiMA(BaseLearner):
                 sampled_data.append(sampled_data_single)
                 sampled_label.extend([c_id] * num_sampled_pcls)
 
-                sampled_data = torch.cat(sampled_data, dim=0).float().to(self._device)
-                sampled_label = torch.tensor(sampled_label).long().to(self._device)
+            sampled_data = torch.cat(sampled_data, dim=0).float().to(self._device)
+            sampled_label = torch.tensor(sampled_label).long().to(self._device)
 
             inputs = sampled_data
             targets= sampled_label

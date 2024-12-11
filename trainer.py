@@ -30,10 +30,7 @@ def train(args):
 
 
 def _train(args):
-    try:
-        os.mkdir("logs/{}_{}".format(args['model_name'], args['model_postfix']))
-    except:
-        pass
+    os.makedirs("logs/{}_{}".format(args['model_name'], args['model_postfix']), exist_ok=True)
     logfilename = 'logs/{}_{}/{}_{}_{}_{}_{}_{}_{}'.format(args['model_name'], args['model_postfix'], args['prefix'], args['seed'], args['model_name'], args['convnet_type'],
                                                 args['dataset'], args['init_cls'], args['increment'])
     logging.basicConfig(

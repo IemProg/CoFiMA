@@ -1,5 +1,9 @@
 # output dir
 logs
+wandb
+data
 
 # pycharm
 *.idea
+*.history
+*__pycache__

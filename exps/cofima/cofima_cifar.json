@@ -18,6 +18,6 @@
     "milestones": [18],
 
     "fisher-weighting": true,
-    "wt_alpha": 0.5,
+    "wt_alpha": 0.4,
     "init_w" : -1
 }
