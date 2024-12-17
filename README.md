@@ -45,6 +45,9 @@ implement, and effective in achieving state-of-the-art performance on several st
   <img src="public/density_function_plot.png" alt="CoFiMA Design" />
 </p>
 
+## Updates  
+📌 **Our method has been added to the PILOT library**: [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT).
+
 ## Requirement
 install the conda environment using the environment.yml file
 
