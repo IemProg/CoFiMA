@@ -27,6 +27,9 @@ The code repository for "[Weighted Ensemble Models Are Strong Continual Learners
 
 📣 Published as a conference paper at ECCV 2024
 
+## Updates  
+📌 **Our method has been added to the PILOT library**: [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT).
+
 ## Abstract
 In this work, we study the problem of continual learning (CL) where the goal is to learn a model on a 
 sequence of tasks, with the data from previous tasks becoming unavailable while learning on the current
@@ -44,9 +47,6 @@ implement, and effective in achieving state-of-the-art performance on several st
 <p align="center">
   <img src="public/density_function_plot.png" alt="CoFiMA Design" />
 </p>
-
-## Updates  
-📌 **Our method has been added to the PILOT library**: [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT).
 
 ## Requirement
 install the conda environment using the environment.yml file
