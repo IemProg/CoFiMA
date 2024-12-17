@@ -11,10 +11,10 @@
 <div align="center">
 
 <div>
-    <a href='' target='_blank'>Imad Eddine MAROUF</a><sup>1</sup>&emsp;
-    <a href='' target='_blank'>Subhankar Roy</a><sup>2</sup>&emsp;
-    <a href='' target='_blank'>Enzo Tartaglione</a><sup>1</sup>&emsp;
-    <a href='' target='_blank'>Stéphane Lathuilière </a><sup>1</sup>
+    <a href='https://iemprog.github.io/' target='_blank'>Imad Eddine MAROUF</a><sup>1</sup>&emsp;
+    <a href='https://scholar.google.it/citations?user=YfzgrDYAAAAJ&hl=en' target='_blank'>Subhankar Roy</a><sup>2</sup>&emsp;
+    <a href='https://enzotarta.github.io/' target='_blank'>Enzo Tartaglione</a><sup>1</sup>&emsp;
+    <a href='https://stelat.eu/' target='_blank'>Stéphane Lathuilière</a><sup>1</sup>
 </div>
 <div>
 <sup>1</sup>Telecom-Paris, Institut Polytechnique de Paris&emsp;
