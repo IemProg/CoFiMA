@@ -3,6 +3,7 @@
   <h1>Weighted Ensemble Models Are Strong Continual Learners</h1> 
 
 [![Static Badge](https://img.shields.io/badge/CoFiMA-arXiv-red)](https://arxiv.org/abs/2312.08977)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIemProg%2FCoFiMA&count_bg=%2379C83D&title_bg=%23E10909&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false)](https://hits.seeyoufarm.com)
 
   </div>
 
